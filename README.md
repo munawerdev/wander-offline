@@ -6,7 +6,7 @@ A **Mason CLI brick** for generating Flutter projects with **Clean Architecture*
 
 - **Flutter**: 3.47.0
 - **Dart**: 3.13.0
-- **Java**: 25.0.2
+- **Java**: 25.0.3
 
 ## 🎯 Key Features
 

@@ -97,8 +97,12 @@ Future<void> init() async {
   getIt.registerFactoryParam<HomeCubit, HomeInitialParams, dynamic>(
       (params, _) => HomeCubit(params, getIt()
       
+       , getIt()
+      
       
       )
+      
+      ..home()
       
       );
 }

@@ -41,7 +41,7 @@ class _BottomNavState extends State<BottomNavPage> {
         // Show exit dialog and wait for result
         final shouldExit = await showDialog<bool>(
           context: context,
-          builder: (context) => const ExitAppDialog(
+          builder: (context) => ExitAppDialog(
             text: 'Are you sure you want to exit the app?',
             label: 'Exit App',
             onPressed: SystemNavigator.pop,
@@ -53,7 +53,7 @@ class _BottomNavState extends State<BottomNavPage> {
           await SystemNavigator.pop();
         }
       },
-      child: const Scaffold(),
+      child: Scaffold(),
     );
   }
 }

@@ -5,7 +5,7 @@ import 'splash_cubit.dart';
 class SplashPage extends StatefulWidget {
   final SplashCubit cubit;
 
-  const SplashPage({super.key, required this.cubit});
+  const SplashPage({Key? key, required this.cubit}) : super(key: key);
 
   @override
   State<SplashPage> createState() => _SplashState();
@@ -29,6 +29,8 @@ class _SplashState extends State<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Dialog()));
+    return const Scaffold(
+      body: Center(child: CircularProgressIndicator.adaptive()),
+    );
   }
 }

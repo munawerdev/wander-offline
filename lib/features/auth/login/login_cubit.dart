@@ -46,7 +46,7 @@ class LoginCubit extends Cubit<LoginState> {
               },
               (r) {
                 emit(state.copyWith(isLoading: false));
-                navigator.openHome(const HomeInitialParams());
+                navigator.openHome(HomeInitialParams());
               },
             ),
           ),

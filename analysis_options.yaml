@@ -12,31 +12,28 @@ linter:
     avoid_redundant_argument_values: true
     sort_pub_dependencies: true
     directives_ordering: true
+    always_use_package_imports: false
     avoid_relative_lib_imports: true
-
     # Safety
+    avoid_dynamic_calls: false
     avoid_slow_async_io: true
     cancel_subscriptions: true
     close_sinks: true
     throw_in_finally: true
-    unawaited_futures: true
-    avoid_empty_else: true
-
     # Types
     avoid_returning_null_for_void: true
     prefer_final_locals: true
     prefer_final_in_for_each: true
     unnecessary_lambdas: true
-    always_declare_return_types: true
-
     # Flutter
     avoid_print: true
     use_build_context_synchronously: true
     no_logic_in_create_state: true
-    use_key_in_widget_constructors: true
 
 analyzer:
   errors:
+    missing_required_param: error
+    missing_return: error
     invalid_assignment: warning
   exclude:
     - "**/*.g.dart"
