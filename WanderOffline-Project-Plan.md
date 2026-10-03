@@ -33,7 +33,7 @@ WanderOffline is a travel companion app for people heading to areas with poor or
 
 | Layer | Choice | Why |
 |---|---|---|
-| State management | **Riverpod** or **Bloc/Cubit** | Predictable state for async downloads/caching |
+| State management | **Bloc/Cubit** | Predictable state for async downloads/caching |
 | Local storage | **Hive** | Lightweight, fast, no native build complexity (skip Isar for v1) |
 | Networking | **Dio** | Better interceptor/retry support than plain http |
 | Navigation | **GoRouter** | Simple, supports deep links for phase 2 sharing |
@@ -48,25 +48,6 @@ WanderOffline is a travel companion app for people heading to areas with poor or
 - **OpenStreetMap / Nominatim** — map tiles and landmark coordinates (free, no key needed)
 
 ---
-
-## 4. Architecture (Clean Architecture, offline-first)
-
-```
-lib/
-├── core/
-│   ├── network/         (Dio client, connectivity checker)
-│   ├── storage/         (Hive boxes, cache manager)
-│   └── error/           (failure/exception handling)
-├── features/
-│   ├── country_pack/
-│   │   ├── data/        (API models, repository impl, local datasource)
-│   │   ├── domain/      (entities, repository interface, use cases)
-│   │   └── presentation/(bloc/cubit, screens, widgets)
-│   ├── weather/
-│   ├── landmarks/
-│   └── billing/         (RevenueCat integration, paywall UI)
-└── main.dart
-```
 
 **Offline-first rule:** every feature reads from Hive first; a background sync job refreshes from the API only when online and only for packs the user already owns. The UI never blocks on a network call for previously downloaded content.
 
