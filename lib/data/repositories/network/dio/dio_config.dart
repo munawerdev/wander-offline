@@ -3,7 +3,6 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:talker_dio_logger/talker_dio_logger.dart';
-import 'package:talker_flutter/talker_flutter.dart';
 
 import '/core/utils/app_url.dart';
 import '/data/datasources/user/user_data_sources.dart';
@@ -15,7 +14,6 @@ class DioConfig {
     required UserDataSources userDataSources,
     required LocalStorageBaseApiService localStorageRepository,
   }) {
-    final talker = Talker();
     final dio = Dio();
 
     // Base configuration
@@ -33,7 +31,6 @@ class DioConfig {
       ..options = dio.options
       ..interceptors.add(
         TalkerDioLogger(
-          talker: talker,
           settings: const TalkerDioLoggerSettings(
             printRequestHeaders: true,
             printErrorHeaders: false,
