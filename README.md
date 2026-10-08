@@ -1,6 +1,6 @@
-# 🚀 Flutter Architecture
+# WanderOffline
 
-A **Mason CLI brick** for generating Flutter projects with **Clean Architecture**. Built for scalability and production-ready applications.
+WanderOffline is a Flutter travel companion app organized around feature modules and a Clean Architecture style data/domain split. This README describes the app repository; it is not a Mason brick.
 
 ## 📋 Version Information
 
@@ -19,7 +19,7 @@ A **Mason CLI brick** for generating Flutter projects with **Clean Architecture*
 - ✅ **UI Components** library
 - ✅ **Navigation** with custom transitions
 
-## 📁 Structure
+## 📁 Source structure
 
 ```
 lib/
@@ -30,7 +30,7 @@ lib/
 ├── 📂 core/                     # Core utilities and services
 │   ├── 📂 constants/            # Global constants
 │   ├── 📂 services/             # Core services
-│   ├── 📂 show/                 # Error handling and notifications
+│   ├── 📂 show/                 # Snack bars and navigation observer
 │   ├── 📂 utils/                # Utility functions
 │   └── 📂 widgets/              # Reusable widgets library
 ├── 📂 data/                     # Data layer (Repository Pattern)
@@ -41,9 +41,11 @@ lib/
 │   ├── 📂 failures/             # Error handling
 │   ├── 📂 repositories/         # Repository interfaces
 │   └── 📂 usecases/             # Business use cases
-├── 📂 features/                 # Feature modules
-│   ├── 📂 auth/                 # Authentication feature
-│   └── 📂 home/      # Main feature
+├── 📂 features/                 # Feature modules (UI, Cubit, navigation, params)
+│   ├── 📂 auth/login/
+│   ├── 📂 bottom_nav/
+│   ├── 📂 home/
+│   └── 📂 splash/
 ├── injection_container.dart     # Dependency injection setup
 └── main.dart                     # Main application entry point
 ```

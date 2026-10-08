@@ -3,6 +3,7 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:talker_dio_logger/talker_dio_logger.dart';
+import 'package:talker_flutter/talker_flutter.dart';
 
 import '/core/utils/app_url.dart';
 import '/data/datasources/user/user_data_sources.dart';
@@ -14,6 +15,7 @@ class DioConfig {
     required UserDataSources userDataSources,
     required LocalStorageBaseApiService localStorageRepository,
   }) {
+    final talker = Talker();
     final dio = Dio();
 
     // Base configuration
@@ -31,7 +33,8 @@ class DioConfig {
       ..options = dio.options
       ..interceptors.add(
         TalkerDioLogger(
-          settings: TalkerDioLoggerSettings(
+          talker: talker,
+          settings: const TalkerDioLoggerSettings(
             printRequestHeaders: true,
             printErrorHeaders: false,
             printErrorMessage: false,
@@ -47,7 +50,7 @@ class DioConfig {
         refreshDio: refreshDio,
       ),
       TalkerDioLogger(
-        settings: TalkerDioLoggerSettings(
+        settings: const TalkerDioLoggerSettings(
           printRequestHeaders: true,
           printErrorHeaders: false,
           printErrorMessage: false,
@@ -72,12 +75,10 @@ class AuthInterceptor extends Interceptor {
   final List<Completer<String?>> _pendingTokenRefresh = [];
 
   AuthInterceptor({
-    required UserDataSources userDataSources,
-    required LocalStorageBaseApiService localStorageRepository,
-    required Dio refreshDio,
-  }) : _userDataSources = userDataSources,
-       _localStorageRepository = localStorageRepository,
-       _refreshDio = refreshDio;
+    required this._userDataSources,
+    required this._localStorageRepository,
+    required this._refreshDio,
+  });
 
   @override
   void onRequest(RequestOptions options, RequestInterceptorHandler handler) {

@@ -5,7 +5,7 @@ import 'login_cubit.dart';
 class LoginPage extends StatefulWidget {
   final LoginCubit cubit;
 
-  const LoginPage({Key? key, required this.cubit}) : super(key: key);
+  const LoginPage({super.key, required this.cubit});
 
   @override
   State<LoginPage> createState() => _LoginState();
@@ -19,6 +19,7 @@ class _LoginState extends State<LoginPage> {
     super.initState();
     cubit.navigator.context = context;
   }
+
   @override
   void dispose() {
     cubit.close();
@@ -27,6 +28,14 @@ class _LoginState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: SizedBox());
+    return  Scaffold(body: Column(
+      children: [
+        ListView.builder(
+          itemBuilder: (context, index) {
+            return SizedBox();
+          }
+        ),
+      ],
+    ));
   }
 }
