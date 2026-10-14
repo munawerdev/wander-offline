@@ -153,10 +153,10 @@ class DioNetworkRepository implements NetworkBaseApiService {
     try {
       final formData = FormData.fromMap({
         'file': await MultipartFile.fromFile(filePath, filename: fileName),
-        if (data != null) ...data,
+        ...?data,
       });
 
-      return _executeRequest<T>(
+      return await _executeRequest<T>(
         () => _dio.post(
           url,
           data: formData,
@@ -166,12 +166,7 @@ class DioNetworkRepository implements NetworkBaseApiService {
         ),
       );
     } catch (e) {
-      return left(
-        NetworkFailure(
-          error: 'File upload preparation failed: $e',
-          type: NetworkFailureType.unknown,
-        ),
-      );
+      return left(NetworkFailure(error: 'File upload preparation failed: $e'));
     }
   }
 
@@ -185,12 +180,7 @@ class DioNetworkRepository implements NetworkBaseApiService {
     } on DioException catch (e) {
       return left(_apiErrorHandler.handleDioError(e));
     } catch (e) {
-      return left(
-        NetworkFailure(
-          error: 'Unexpected error: $e',
-          type: NetworkFailureType.unknown,
-        ),
-      );
+      return left(NetworkFailure(error: 'Unexpected error: $e'));
     }
   }
 }

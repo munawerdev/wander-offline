@@ -1,6 +1,5 @@
-
 class GetThemeFailure {
   final String error;
 
-  GetThemeFailure({this.error = ""});
+  GetThemeFailure({this.error = ''});
 }

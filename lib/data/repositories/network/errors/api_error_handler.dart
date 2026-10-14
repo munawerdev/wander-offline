@@ -45,7 +45,6 @@ class ApiErrorHandler {
         return NetworkFailure(
           error:
               'SSL certificate error. Please check your connection security.',
-          type: NetworkFailureType.unknown,
           additionalData: _extractAdditionalData(error),
         );
       case DioExceptionType.unknown:
@@ -102,9 +101,7 @@ class ApiErrorHandler {
         );
       case 409:
         return NetworkFailure(
-          error: errorMessage.isNotEmpty
-              ? 'Conflict: $errorMessage'
-              : 'Resource conflict. The request conflicts with the current state.',
+          error: errorMessage.isNotEmpty ? 'Conflict: $errorMessage' : 'Resource conflict. The request conflicts with the current state.',
           type: NetworkFailureType.badRequest,
           statusCode: statusCode,
           additionalData: _normalizeAdditionalData(responseData),
@@ -118,8 +115,7 @@ class ApiErrorHandler {
         );
       case 413:
         return NetworkFailure(
-          error:
-              'Request entity too large. Please reduce the size of your request.',
+          error: 'Request entity too large. Please reduce the size of your request.',
           type: NetworkFailureType.badRequest,
           statusCode: statusCode,
           additionalData: _normalizeAdditionalData(responseData),
@@ -357,7 +353,6 @@ class ApiErrorHandler {
         error.error?.toString() ?? error.message ?? 'Unknown error';
     return NetworkFailure(
       error: 'Unknown network error: $errorString',
-      type: NetworkFailureType.unknown,
       additionalData: _extractAdditionalData(error),
     );
   }

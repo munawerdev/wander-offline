@@ -1,8 +1,9 @@
 import 'package:fpdart/fpdart.dart';
+
 import '/core/constants/global.dart';
+import '/data/datasources/theme/theme_data_source.dart';
 import '/domain/failures/theme/get_theme_failure.dart';
 import '/domain/repositories/local/local_storage_base_api_service.dart';
-import '/data/datasources/theme/theme_data_source.dart';
 
 class GetThemeUseCase {
   final LocalStorageBaseApiService _localStorageRepository;
@@ -12,9 +13,12 @@ class GetThemeUseCase {
 
   Future<Either<GetThemeFailure, Unit>> execute() => _localStorageRepository
       .getBool(key: GlobalConstants.themeKey)
-      .then((value) => value.fold((l) => left(GetThemeFailure(error: l.error)),
-              (isDarkTheme) {
-            _themeStore.setTheme(isDarkTheme);
-            return right(unit);
-          }));
+      .then(
+        (value) => value.fold((l) => left(GetThemeFailure(error: l.error)), (
+          isDarkTheme,
+        ) {
+          _themeStore.setTheme(isDarkTheme);
+          return right(unit);
+        }),
+      );
 }

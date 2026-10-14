@@ -1,8 +1,9 @@
 import 'package:material_ui/material_ui.dart';
-import 'home_initial_params.dart';
-import 'home_page.dart';
+
 import '/config/navigation/app_navigator.dart';
 import '/injection_container.dart';
+import 'home_initial_params.dart';
+import 'home_page.dart';
 
 class HomeNavigator {
   HomeNavigator(this.navigator);
@@ -13,13 +14,12 @@ class HomeNavigator {
 }
 
 mixin HomeRoute {
-void openHome(HomeInitialParams initialParams) =>
-navigator.push(
-context: context,
-        routeName: HomePage(cubit: getIt(param1: initialParams))
-);
+  void openHome(HomeInitialParams initialParams) => navigator.push(
+    context: context,
+    routeName: HomePage(cubit: getIt(param1: initialParams)),
+  );
 
-AppNavigator get navigator;
+  AppNavigator get navigator;
 
-BuildContext get context;
+  BuildContext get context;
 }

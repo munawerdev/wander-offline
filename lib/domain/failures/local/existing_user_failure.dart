@@ -1,5 +1,5 @@
 class ExistingUserFailure {
   final String error;
 
-  ExistingUserFailure({this.error = ""});
+  ExistingUserFailure({this.error = ''});
 }

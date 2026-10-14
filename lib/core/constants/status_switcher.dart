@@ -105,7 +105,7 @@ class StatusSwitcher<T> extends StatelessWidget {
 class _DefaultLoadingWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) =>
-      Center(child: CircularProgressIndicator.adaptive());
+      const Center(child: CircularProgressIndicator.adaptive());
 }
 
 /// Professional error widget with better UX
@@ -224,7 +224,7 @@ class _DefaultErrorWidgetState extends State<_DefaultErrorWidget>
     decoration: BoxDecoration(
       color: errorColor.withValues(alpha: 0.15),
       borderRadius: BorderRadius.circular(20.r),
-      border: Border.all(color: errorColor.withValues(alpha: 0.3), width: 1),
+      border: Border.all(color: errorColor.withValues(alpha: 0.3)),
     ),
     child: Row(
       mainAxisSize: MainAxisSize.min,
@@ -253,7 +253,6 @@ class _DefaultErrorWidgetState extends State<_DefaultErrorWidget>
           borderRadius: BorderRadius.circular(12.r),
           border: Border.all(
             color: context.theme.colorScheme.primary.withValues(alpha: 0.3),
-            width: 1,
           ),
         ),
         child: Text(

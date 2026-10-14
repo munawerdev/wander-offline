@@ -1,3 +1,3 @@
 class HomeInitialParams {
-const HomeInitialParams();
+  const HomeInitialParams();
 }

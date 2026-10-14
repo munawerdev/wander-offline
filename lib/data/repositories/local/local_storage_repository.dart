@@ -17,7 +17,7 @@ class LocalStorageRepository implements LocalStorageBaseApiService {
     required UserInfoStoreModel userInfoStoreModel,
   }) async {
     try {
-      String userJson = jsonEncode(userInfoStoreModel.toJson());
+      final String userJson = jsonEncode(userInfoStoreModel.toJson());
       await _storage.write(key: 'user_info', value: userJson);
       return right(true);
     } catch (ex) {
@@ -29,11 +29,11 @@ class LocalStorageRepository implements LocalStorageBaseApiService {
   Future<Either<GetLocalStorageFailure, UserInfoStoreModel>>
   getUserData() async {
     try {
-      String? userJson = await _storage.read(key: 'user_info');
+      final String? userJson = await _storage.read(key: 'user_info');
       if (userJson == null) {
         return right(UserInfoStoreModel.empty().copyWith());
       }
-      Map<String, dynamic> userMap = jsonDecode(userJson);
+      final Map<String, dynamic> userMap = jsonDecode(userJson);
       return right(UserInfoStoreModel.fromJson(userMap));
     } catch (ex) {
       return left(GetLocalStorageFailure(error: ex.toString()));
@@ -55,7 +55,7 @@ class LocalStorageRepository implements LocalStorageBaseApiService {
     required String key,
   }) async {
     try {
-      String? value = await _storage.read(key: key);
+      final String? value = await _storage.read(key: key);
       if (value == null) {
         return right(false);
       }
@@ -93,7 +93,7 @@ class LocalStorageRepository implements LocalStorageBaseApiService {
     required String key,
   }) async {
     try {
-      bool contains = await _storage.containsKey(key: key);
+      final bool contains = await _storage.containsKey(key: key);
       return right(contains);
     } catch (ex) {
       return left(GetLocalStorageFailure(error: ex.toString()));

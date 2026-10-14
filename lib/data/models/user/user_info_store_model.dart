@@ -12,14 +12,14 @@ class UserInfoStoreModel {
 
   factory UserInfoStoreModel.fromJson(Map<String, dynamic> json) =>
       UserInfoStoreModel(
-        accessToken: json["accessToken"] ?? "",
-        refreshToken: json["refreshToken"] ?? "",
+        accessToken: json['accessToken'] ?? '',
+        refreshToken: json['refreshToken'] ?? '',
       );
   factory UserInfoStoreModel.empty() =>
-      UserInfoStoreModel(accessToken: "", refreshToken: "");
+      UserInfoStoreModel(accessToken: '', refreshToken: '');
 
   Map<String, dynamic> toJson() => {
-    "accessToken": accessToken,
-    "refreshToken": refreshToken,
+    'accessToken': accessToken,
+    'refreshToken': refreshToken,
   };
 }

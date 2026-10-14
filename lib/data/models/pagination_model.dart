@@ -31,11 +31,11 @@ class Pagination {
 
   factory Pagination.fromJson(Map<String, dynamic> json) {
     return Pagination(
-      page: json["page"] ?? 0,
-      limit: json["limit"] ?? 0,
-      currentRecords: json["currentRecords"] ?? 0,
-      totalRecords: json["totalRecords"] ?? 0,
-      totalPages: json["totalPages"] ?? 0,
+      page: json['page'] ?? 0,
+      limit: json['limit'] ?? 0,
+      currentRecords: json['currentRecords'] ?? 0,
+      totalRecords: json['totalRecords'] ?? 0,
+      totalPages: json['totalPages'] ?? 0,
     );
   }
 }

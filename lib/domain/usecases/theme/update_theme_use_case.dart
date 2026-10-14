@@ -1,8 +1,9 @@
 import 'package:fpdart/fpdart.dart';
+
 import '/core/constants/global.dart';
+import '/data/datasources/theme/theme_data_source.dart';
 import '/domain/failures/theme/update_theme_failure.dart';
 import '/domain/repositories/local/local_storage_base_api_service.dart';
-import '/data/datasources/theme/theme_data_source.dart';
 
 class UpdateThemeUseCase {
   final ThemeDataSources _themeStore;
@@ -14,9 +15,11 @@ class UpdateThemeUseCase {
     _themeStore.setTheme(isDarkTheme);
     return _localStorageRepository
         .setBool(key: GlobalConstants.themeKey, value: isDarkTheme)
-        .then((value) => value.fold(
-              (l) => left(UpdateThemeFailure(error: l.error)),
-              (r) => right(true),
-            ));
+        .then(
+          (value) => value.fold(
+            (l) => left(UpdateThemeFailure(error: l.error)),
+            (r) => right(true),
+          ),
+        );
   }
 }
