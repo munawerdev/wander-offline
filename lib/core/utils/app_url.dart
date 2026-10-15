@@ -1,4 +1,3 @@
-
 abstract class AppUrl {
   AppUrl._();
 
@@ -16,6 +15,5 @@ abstract class AppUrl {
 
   // home
   static String get home => '$_baseUrl/home';
-
 }
-  // static String endpoint(String userId) => '$_baseUrl/$path';
+// static String endpoint(String userId) => '$_baseUrl/$path';

@@ -16,12 +16,6 @@ class _BottomNavState extends State<BottomNavPage> {
   BottomNavCubit get cubit => widget.cubit;
 
   @override
-  void initState() {
-    super.initState();
-    cubit.navigator.context = context;
-  }
-
-  @override
   void dispose() {
     cubit.close();
     super.dispose();
@@ -41,7 +35,7 @@ class _BottomNavState extends State<BottomNavPage> {
         // Show exit dialog and wait for result
         final shouldExit = await showDialog<bool>(
           context: context,
-          builder: (context) => ExitAppDialog(
+          builder: (context) => const ExitAppDialog(
             text: 'Are you sure you want to exit the app?',
             label: 'Exit App',
             onPressed: SystemNavigator.pop,
@@ -53,7 +47,7 @@ class _BottomNavState extends State<BottomNavPage> {
           await SystemNavigator.pop();
         }
       },
-      child: Scaffold(),
+      child: const Scaffold(),
     );
   }
 }

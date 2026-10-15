@@ -1,25 +1,18 @@
-import 'package:material_ui/material_ui.dart';
+import 'package:wander_offline/features/auth/login/login_navigator.dart';
 
 import '/config/navigation/app_navigator.dart';
-import '/injection_container.dart';
+import '/config/navigation/app_routes.dart';
 import 'home_initial_params.dart';
-import 'home_page.dart';
 
-class HomeNavigator {
+class HomeNavigator with LoginRoute {
   HomeNavigator(this.navigator);
-  @override
-  late BuildContext context;
   @override
   AppNavigator navigator;
 }
 
 mixin HomeRoute {
-  void openHome(HomeInitialParams initialParams) => navigator.push(
-    context: context,
-    routeName: HomePage(cubit: getIt(param1: initialParams)),
-  );
+  void openHome(HomeInitialParams initialParams) =>
+      navigator.go(AppRoutes.home, extra: initialParams);
 
   AppNavigator get navigator;
-
-  BuildContext get context;
 }

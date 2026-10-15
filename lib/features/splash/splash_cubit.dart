@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wander_offline/features/auth/login/login_initial_params.dart';
+import 'package:wander_offline/features/home/home_initial_params.dart';
+import 'package:wander_offline/features/splash/splash_navigator.dart';
 
 import '/domain/usecases/local/check_for_existing_user_use_case.dart';
 import '/domain/usecases/theme/get_theme_use_case.dart';
-import '/features/auth/login/login_initial_params.dart';
-import '/features/home/home_initial_params.dart';
-import '/features/splash/splash_navigator.dart';
 import 'splash_initial_params.dart';
 import 'splash_state.dart';
 
@@ -33,7 +33,7 @@ class SplashCubit extends Cubit<SplashState> {
         },
         (r) {
           emit(state.copyWith(isloading: false));
-          return navigator.openHome(const HomeInitialParams());
+          return navigator.openHome(const HomeInitialParams(name: 'name'));
         },
       ),
     );

@@ -1,3 +1,5 @@
 class HomeInitialParams {
-  const HomeInitialParams();
+  final String name;
+
+  const HomeInitialParams({required this.name});
 }

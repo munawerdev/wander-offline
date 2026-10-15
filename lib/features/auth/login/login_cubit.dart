@@ -1,13 +1,13 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wander_offline/features/auth/login/login_navigator.dart';
+import 'package:wander_offline/features/home/home_initial_params.dart';
 
 import '/core/show/show.dart';
 import '/core/utils/app_url.dart';
 import '/data/models/auth/login_model.dart';
 import '/domain/repositories/network/network_base_api_service.dart';
 import '/domain/usecases/user/user_use_cases.dart';
-import '/features/home/home_initial_params.dart';
 import 'login_initial_params.dart';
-import 'login_navigator.dart';
 import 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {
@@ -46,7 +46,7 @@ class LoginCubit extends Cubit<LoginState> {
               },
               (r) {
                 emit(state.copyWith(isLoading: false));
-                navigator.openHome(HomeInitialParams());
+                navigator.openHome(const HomeInitialParams(name: 'name'));
               },
             ),
           ),

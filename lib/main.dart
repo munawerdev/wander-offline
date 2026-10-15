@@ -2,20 +2,18 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:material_ui/material_ui.dart';
 
+import '/config/navigation/app_router.dart';
 import '/config/theme/theme_data.dart';
 import '/core/constants/global.dart';
-import '/core/show/checker_navigator_observer.dart';
 import '/data/datasources/theme/theme_data_source.dart';
-import '/features/splash/splash_initial_params.dart';
-import '/features/splash/splash_page.dart';
 import '/injection_container.dart' as di;
 import '/injection_container.dart';
 
 Future<void> main() async {
-  //
   WidgetsFlutterBinding.ensureInitialized();
   // await dotenv.load(fileName: '.env');
   await di.init();
+
   runApp(const MyApp());
 }
 
@@ -31,13 +29,11 @@ class MyApp extends StatelessWidget {
       bloc: getIt<ThemeDataSources>(),
       builder: (context, state) {
         state as bool;
-        return MaterialApp(
-          navigatorKey: GlobalConstants.navigatorKey,
+        return MaterialApp.router(
           scaffoldMessengerKey: GlobalConstants.scaffoldMessengerKey,
-          navigatorObservers: [CheckerNavigatorObserver()],
           debugShowCheckedModeBanner: false,
           theme: state ? darkTheme : lightTheme,
-          home: SplashPage(cubit: getIt(param1: const SplashInitialParams())),
+          routerConfig: AppRouter.router,
         );
       },
     ),

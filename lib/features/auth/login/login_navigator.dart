@@ -1,30 +1,21 @@
-import 'package:material_ui/material_ui.dart';
-import '/features/home/home_navigator.dart';
-import 'login_initial_params.dart';
-import 'login_page.dart';
+import 'package:wander_offline/features/home/home_navigator.dart';
+
 import '/config/navigation/app_navigator.dart';
-import '/injection_container.dart';
-import '/config/navigation/transition_type.dart';
+import '/config/navigation/app_routes.dart';
+import 'login_initial_params.dart';
 
-class LoginNavigator with HomeRoute{
+class LoginNavigator with HomeRoute {
   LoginNavigator(this.navigator);
-  @override
-  late BuildContext context;
 
   @override
-  AppNavigator navigator;
+  final AppNavigator navigator;
 }
 
 mixin LoginRoute {
- void openLogin(LoginInitialParams initialParams) =>
-navigator.pushAndRemoveUntil(
-        context: context,
-        routeName: LoginPage(cubit: getIt(param1: initialParams)),
-        transitionType: TransitionType.slideFromLeft,
-        predicate: (route) => false);
+  void openLogin(LoginInitialParams initialParams) =>
+      navigator.go(AppRoutes.login, extra: initialParams);
 
+  void openBack() => navigator.pop();
 
   AppNavigator get navigator;
-
-  BuildContext get context;
 }
