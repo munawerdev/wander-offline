@@ -1,0 +1,173 @@
+{
+  "countryCode": "TR",
+  "name": "Turkey",
+  "tagline": "Two continents, endless bus rides, and street food for pocket change",
+  "region": "Western Asia",
+  "accentColor": "#E30A17",
+  "currencyCode": "TRY",
+  "primaryCity": "Istanbul",
+  "latitude": 41.0082,
+  "longitude": 28.9784,
+  "blurb": "Turkey is one of the cheapest big adventures left in the Mediterranean basin, and for a backpacker on a tight budget that matters more than any postcard. Long-distance buses cost less than a hostel bed back home, simit and balik ekmek keep you fed for pocket change, and the country hands you Byzantine domes, fairy-chimney valleys, Roman terraces and Kurdish bazaars in a single sweep. The lira's long slide means your money stretches further each season, though prices move fast. Come for two weeks and you will still be choosing what to skip.",
+  "facts": {
+    "capital": "Ankara",
+    "region": "Western Asia",
+    "subregion": "Western Asia",
+    "population": 85300000,
+    "areaKm2": 783562,
+    "currency": {"code": "TRY", "name": "Turkish lira", "symbol": "₺"},
+    "languages": ["Turkish"],
+    "callingCode": "+90",
+    "drivingSide": "right",
+    "timezones": ["UTC+03:00"],
+    "powerPlug": "Type C/F, 230V, 50Hz",
+    "tapWater": "Not safe to drink in most areas; bottled water is the norm",
+    "visaNote": "Most Western tourists (EU, UK, US, Canada, Australia) enter visa-free or with a quick e-Visa for up to 90 days in any 180-day period. Pakistani passport holders need a visa, which must be arranged in advance through a Turkish embassy or consulate, and should carry proof of accommodation, funds and onward travel.",
+    "bestMonths": "April to June and September to October are the sweet spot, with mild weather and thinner crowds. July and August are brutally hot and humid along the Aegean and Mediterranean coast, while central and eastern Anatolia swing to freezing, snowy winters from December through February.",
+    "dailyBudget": "A backpacker can get by on roughly 700-1,200 TRY (about $20-35) a day for a hostel dorm, supermarket or street food and public transport; add 300-500 TRY for a dorm in Sultanahmet or a paid landmark per day. Turkish lira inflation is steep, so treat any figure older than a few months as a rough floor rather than a real price.",
+    "cashVsCard": "Cards are widely accepted in hotels, chain restaurants and supermarkets, but markets, small cafes, dolmus minibuses and many family-run pensions still run on cash. Buy an Istanbulkart for trams, metro, ferries and buses in Istanbul, and keep a few hundred lira of small notes for everything else."
+  },
+  "landmarks": [
+    {
+      "id": "tr-hagia-sophia",
+      "name": "Hagia Sophia",
+      "city": "Istanbul",
+      "category": "monument",
+      "latitude": 41.0086,
+      "longitude": 28.9802,
+      "whyVisit": "Everyone tells you it is unmissable, which is exactly why you should go at opening time rather than at noon. Stand under the main dome and look up: the gold mosaic of the Virgin and Child sits high in the apse, and the sheer span of that dome still feels impossible for a building finished in 537 AD. Give it two hours, not twenty minutes, and climb to the gallery to find Viking graffiti scratched into the marble balustrade.",
+      "description": "Built by Justinian I between 532 and 537 AD as a cathedral, Hagia Sophia was the world's largest church for nearly a thousand years, then an Ottoman mosque after 1453, a museum from 1935, and a mosque again since 2020. Its central dome, 31 metres across and 55 metres high, rests on pendentives that changed architecture forever, and the interior layers Byzantine mosaics, Ottoman calligraphy and massive stone piers.",
+      "bestTime": "Arrive 15-20 minutes before opening on a weekday; late afternoon light is best for the mosaics.",
+      "entryFee": "Free for worshippers and tourists alike, though the upper gallery can close during prayer times.",
+      "tip": "It is an active mosque, so women need a headscarf and everyone needs covered shoulders and knees; the tourist queue is split from the prayer queue and moves far more slowly than it looks."
+    },
+    {
+      "id": "tr-blue-mosque",
+      "name": "Blue Mosque (Sultan Ahmed Mosque)",
+      "city": "Istanbul",
+      "category": "shrine",
+      "latitude": 41.0054,
+      "longitude": 28.9768,
+      "whyVisit": "This is the one working mosque in Istanbul a first-timer can walk into without feeling like a trespasser, and the blue Iznik tiles in the galleries really do earn the name. Go near a prayer time rather than at midday and you will hear the call to prayer roll around the courtyard, which beats any audio guide. It is free, five minutes from Hagia Sophia, and worth the fuss of taking your shoes off.",
+      "description": "Sultan Ahmed I commissioned the mosque in 1609 and it opened in 1617, deliberately placed opposite Hagia Sophia to rival it. It has six minarets, a cascade of domes and more than 20,000 hand-made Iznik tiles in blue, green and turquoise, lit through 260 stained-glass windows.",
+      "bestTime": "Early morning or an hour before sunset; tourists are held outside for roughly 20-30 minutes around each of the five daily prayers.",
+      "entryFee": "Free; donations are welcome.",
+      "tip": "Carry your shoes in the plastic bag provided instead of leaving them on the outdoor racks, which fill up fast and are not attended."
+    },
+    {
+      "id": "tr-galata-tower",
+      "name": "Galata Tower",
+      "city": "Istanbul",
+      "category": "castle",
+      "latitude": 41.0256,
+      "longitude": 28.9744,
+      "whyVisit": "The queue is long and the ticket price is steep, but the balcony view is the best orientation Istanbul offers: the Golden Horn on one side, the Bosphorus and the Asian shore on the other, and the domes and minarets of the old city spread out below. If money is tight, wander the steep lanes of Galata and Karakoy instead and look up at the tower from a cafe terrace. If you do pay, pick a clear weekday morning.",
+      "description": "The Genoese built the tower as Christea Turris in 1348 as part of the fortifications of their Galata colony; it stands about 67 metres tall with the viewing balcony roughly 52 metres up. A lift takes you most of the way, with two spiral staircases for the final stretch.",
+      "bestTime": "Opening time on a weekday, or the last hour before closing; the balcony is small and packs out at sunset.",
+      "entryFee": "About €30 (~$33) for foreign visitors; Turkish citizens pay a fraction of that.",
+      "tip": "The lift queue and the stairs queue are separate and both crawl, so buy your ticket online the night before and walk straight to the lift entrance."
+    },
+    {
+      "id": "tr-goreme-open-air-museum",
+      "name": "Göreme Open Air Museum",
+      "city": "Göreme",
+      "category": "museum",
+      "latitude": 38.6431,
+      "longitude": 34.8287,
+      "whyVisit": "This is the reason people come to Cappadocia, and the rock-cut churches with painted ceilings are genuinely astonishing once you get past the tour groups. Arrive in the first hour after opening and you can have the Dark Church almost to yourself. Do not skip the Dark Church because of the extra ticket: its frescoes survive better than anything else in the valley precisely because almost no light ever reached them.",
+      "description": "The museum is a monastic settlement of rock-cut churches, refectories and dwellings carved into soft volcanic tuff between roughly the 9th and 13th centuries. The best-known churches, including the Buckle, Apple, Snake and Dark churches, hold Byzantine frescoes in red ochre, blue and gold, some still vividly intact.",
+      "bestTime": "Right at 08:00 opening or after 16:00; summer midday is hot, glaring and crowded.",
+      "entryFee": "About €20 (~$22) for the museum; the Dark Church costs a few euros extra.",
+      "tip": "The path climbs and the steps into the churches are steep and uneven, so wear grippy shoes and bring cash because the Dark Church booth does not always accept cards."
+    },
+    {
+      "id": "tr-library-of-celsus",
+      "name": "Library of Celsus",
+      "city": "Selçuk",
+      "category": "monument",
+      "latitude": 37.9395,
+      "longitude": 27.3407,
+      "whyVisit": "The facade is the most photographed thing in Ephesus and it still deserves the hype, but the trick is to walk past it first and loop back from the Terrace Houses end when the buses have moved on. Look at the statues in the niches and the four female figures on the lower level representing wisdom, knowledge, thought and virtue. It is a stage set, but a two-thousand-year-old one, and in early light the marble turns honey-coloured.",
+      "description": "Built around 110 AD by Consul Julius Aquila in memory of his father Tiberius Julius Celsus Polemaeanus, the library once held some 12,000 scrolls, making it one of the largest in the Roman world. The two-storey facade was re-erected in the 1970s from fallen pieces, and behind it lies the burial chamber of Celsus himself.",
+      "bestTime": "Right at opening or in the final two hours; Ephesus offers almost no shade.",
+      "entryFee": "Included in the Ephesus site ticket, about €40 (~$44); the Terrace Houses cost extra.",
+      "tip": "Enter at the upper Magnesia gate and walk downhill to the lower gate rather than the reverse: same sights, far less climbing, and you finish near the shuttle parking."
+    },
+    {
+      "id": "tr-pamukkale-travertines",
+      "name": "Pamukkale Travertines",
+      "city": "Pamukkale",
+      "category": "nature",
+      "latitude": 37.9203,
+      "longitude": 29.1206,
+      "whyVisit": "The white terraces look like a screensaver until you see them in person, and walking barefoot down the warm mineral channels is the best free foot massage in Turkey. Go at first light, because by mid-morning the pools turn into a scrum of posing tour groups. Pair the terraces with the ruins of Hierapolis on top and one ticket buys you a Roman city and a geological freak show.",
+      "description": "The travertines are terraced basins of calcium carbonate laid down over millennia by spring water rich in bicarbonate and calcium that emerges at around 35°C. Above them sits Hierapolis, a Roman spa city with a theatre, a vast necropolis and the Antique Pool, where you can swim among fallen columns.",
+      "bestTime": "First light, before 09:00; the terraces close to walking after dark and the light is flat at midday.",
+      "entryFee": "About €30 (~$33), covering both the travertines and Hierapolis.",
+      "tip": "You must walk the terraces barefoot to protect the calcium, and the white surface throws the sun back hard, so bring socks for the hot stretches and a hat."
+    },
+    {
+      "id": "tr-mount-nemrut",
+      "name": "Mount Nemrut",
+      "city": "Adıyaman",
+      "category": "monument",
+      "latitude": 37.9808,
+      "longitude": 38.7411,
+      "whyVisit": "This is one of the strangest places in the country: colossal decapitated stone heads of gods sitting on a man-made rubble peak at 2,134 metres with nothing else around for miles. The sunrise trip from Kahta is the standard move, but the sunset terrace is quieter and just as good. It is a long, cold, bumpy ride to get there, and that is exactly why it feels earned.",
+      "description": "King Antiochus I of Commagene built the tomb-sanctuary in the 1st century BC as a hierothesion, a sacred burial site, with giant statues of himself and a blended pantheon of Greek and Persian gods flanking a 50-metre crushed-rock tumulus. The heads toppled from the bodies over the centuries and now sit in rows on the east and west terraces.",
+      "bestTime": "Sunrise or sunset from late May to early October; outside that window the access road can be snowbound and the summit is bitterly cold.",
+      "entryFee": "Around 300 TRY (~$9) at the gate, plus whatever a tour or taxi from Kahta costs.",
+      "tip": "At 2,134 metres it is cold and windy even in midsummer, so pack a fleece and a head torch, and confirm whether your tour covers the east or west terrace before you book."
+    },
+    {
+      "id": "tr-mardin-old-town",
+      "name": "Mardin Old Town",
+      "city": "Mardin",
+      "category": "neighbourhood",
+      "latitude": 37.3135,
+      "longitude": 40.7350,
+      "whyVisit": "Mardin is the Turkey most travellers never see: honey-coloured stone houses stacked down a hillside above the Mesopotamian plain, with the Syrian border visible from the terrace. It is cheap, walkable and full of Kurdish, Arab, Syriac and Turkish food, and almost nobody is trying to sell you a carpet. Stay two nights and let the evening call to prayer echo up the hill.",
+      "description": "The old town is a dense medieval settlement of limestone houses, caravanserais and madrasas on the southern slope of a hill, with roots reaching back through the Syriac Christian and Artuqid periods. Its landmarks include the Ulu Cami, the Zinciriye Medresesi and the Deyrulzafaran monastery a short drive away, with the plain below stretching toward Syria.",
+      "bestTime": "April to June and September to November; summer afternoons on the exposed terraces are brutally hot and winter brings cold rain.",
+      "entryFee": "Free to walk the old town; sites such as the Zinciriye Medresesi charge small fees.",
+      "tip": "Cars and dolmus cannot reach the narrow stepped lanes of the old town, so pack light and expect to carry your bag the last few hundred metres."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "Carry a mix of small lira notes; many small vendors cannot break a 200 or 500 TRY note early in the day.",
+      "Use bank ATMs such as Ziraat, Is Bankasi or Garanti rather than standalone machines, and always decline the machine's own conversion rate.",
+      "Euros and dollars are accepted at tourist hotels and balloon operators, but the rate is usually poor, so pay in lira whenever you can.",
+      "Museum tickets and balloon flights are often quoted in euros, so check the day's lira equivalent before you agree to anything."
+    ],
+    "tipping": [
+      "Tipping is appreciated but not obligatory; around 5-10 percent in a restaurant is generous.",
+      "Leave a few lira coins at a cay house or for a simit seller, and round up the fare in taxis.",
+      "Hotel housekeeping gets 20-50 TRY a day if you are happy with the room.",
+      "Guides and drivers on a full-day tour expect roughly 50-100 TRY per person."
+    ],
+    "scams": [
+      "In Sultanahmet a friendly stranger may tell you your hotel is closed, burned down or overbooked and offer to walk you to a better one; call your hotel yourself and never follow him.",
+      "The classic shoe-shine drop: a man walking ahead of you drops his brush, you hand it back, and he insists on polishing your shoes before demanding an absurd price, so keep walking.",
+      "Bars and clubs around Beyoglu's Istiklal Street and Aksaray hand you a menu with no prices and then present a bill of thousands of lira for two drinks, sometimes claiming the card machine is broken to force a worse exchange rate.",
+      "Carpet shops run a hard sell with tea and a fake family-business story, and unsolicited free tours often end at a shop, so agree any price in writing before you sit down."
+    ],
+    "transport": [
+      "Turkey's intercity bus network is superb and cheap; overnight buses between Istanbul, Cappadocia, Ephesus and the coast save a night of accommodation.",
+      "Book buses and trains a few days ahead around holidays, and use the fast YHT train from Istanbul to Ankara or Konya.",
+      "In Istanbul the Istanbulkart covers tram, metro, ferry, funicular and bus, and topping it up at machines beats buying single tokens.",
+      "Dolmus minibuses are the cheap way around smaller towns, but services stop early in the evening, so check the last departure before you go out."
+    ],
+    "etiquette": [
+      "Take your shoes off at the door of a mosque or a Turkish home, and dress modestly with shoulders and knees covered.",
+      "Women should carry a scarf for mosque visits, though many mosques lend one at the entrance.",
+      "Accept tea when it is offered, hold the glass by the rim or the saucer, and use your right hand for greetings and eating.",
+      "Avoid debating politics or the Armenian and Kurdish questions with strangers, and never insult Ataturk or the Turkish flag."
+    ],
+    "emergency": {
+      "police": "155",
+      "ambulance": "112",
+      "notes": "Dial 112 for ambulance, fire and gendarmerie, and 155 for police; English-speaking operators are common in tourist areas. Turkey sits on major fault lines, so note your hotel's evacuation route and save your embassy's number in your phone."
+    }
+  }
+}

@@ -1,0 +1,3 @@
+class PackBrowserInitialParams {
+  const PackBrowserInitialParams();
+}

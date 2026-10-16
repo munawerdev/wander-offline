@@ -9,6 +9,12 @@ class AppColors {
   static const Color primary = Color(0xFF2196F3);
   // static const Color primaryVariant = Color(0xFF1976D2);
 
+  // Status Colors
+  // Pack state reads off these: "offline ready" and "free pick" are success,
+  // while an ad-granted preview is a warning because it expires.
+  static const Color success = Color(0xFF2E7D32);
+  static const Color warning = Color(0xFFF9A825);
+
   // // Secondary Colors
   // static const Color secondary = Color(0xFF03DAC6);
   // static const Color secondaryVariant = Color(0xFF018786);

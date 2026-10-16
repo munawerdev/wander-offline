@@ -1,0 +1,169 @@
+{
+  "countryCode": "PT",
+  "name": "Portugal",
+  "tagline": "Cheap sardines, Atlantic surf and tiles that stop you mid-step",
+  "region": "Southern Europe",
+  "accentColor": "#006600",
+  "currencyCode": "EUR",
+  "primaryCity": "Lisbon",
+  "latitude": 38.7223,
+  "longitude": -9.1393,
+  "blurb": "Portugal is the cheapest way to travel Western Europe slowly: dorm beds in Lisbon and Porto start around €18, a bifana and a beer cost €5, and the whole Atlantic coast is free. Trains and coaches link Lisbon, Coimbra, Porto and the Algarve without a car, so a €50-a-day budget buys real food, real surf and real distance rather than just survival. Go for tiled alleys, mournful Fado, grilled sardines and cliffs that make you put your phone down.",
+  "facts": {
+    "capital": "Lisbon",
+    "region": "Southern Europe",
+    "subregion": "Southern Europe",
+    "population": 10500000,
+    "areaKm2": 92212,
+    "currency": {"code": "EUR", "name": "Euro", "symbol": "€"},
+    "languages": ["Portuguese"],
+    "callingCode": "+351",
+    "drivingSide": "right",
+    "timezones": ["UTC+00:00"],
+    "powerPlug": "Type C/F, 230V, 50Hz",
+    "tapWater": "Safe to drink",
+    "visaNote": "Portugal is in the Schengen area, so most Western tourists enter visa-free for up to 90 days in any 180-day period. A Pakistani passport holder needs a Schengen short-stay visa arranged in advance at a Portuguese consulate or VFS centre, with biometrics, travel insurance, accommodation proof and bank statements.",
+    "bestMonths": "April to June and September to October give warm, dry weather with thinner crowds and cheaper beds. July and August are hot and packed on the coast, and the Atlantic keeps the water bracing and the north-west windy even in midsummer, so pack a light jacket year-round.",
+    "dailyBudget": "A backpacker can travel on roughly €45-65 per day (about $50-70), covering a hostel dorm, supermarket and pastelaria meals, public transport and one paid attraction; camping, cooking and off-season travel push it closer to €35.",
+    "cashVsCard": "Cards are accepted almost everywhere, including contactless on the metro and most cafes, though tiny village shops and some pastelarias still prefer cash. Expect a municipal tourist tax of about €2-4 per person per night in Lisbon, Porto and many Algarve towns, usually collected at check-in on top of your booking."
+  },
+  "landmarks": [
+    {
+      "id": "pt-torre-de-belem",
+      "name": "Torre de Belém",
+      "city": "Lisbon",
+      "category": "monument",
+      "latitude": 38.69157,
+      "longitude": -9.21596,
+      "whyVisit": "Almost everyone photographs the outside and walks on, which is a mistake, because inside is a tight spiral of gun ports and a vertigo-inducing terrace hanging over the Tagus. Turn up for the 10:00 opening and you get the whole tower to yourself before the coach groups arrive.",
+      "description": "Built between 1514 and 1520 under Manuel I as a fortress and ceremonial gateway to Lisbon, the Torre de Belém is a UNESCO World Heritage Site of golden limestone carved with ropes, armillary spheres and the Cross of the Order of Christ. Inside are four storeys, a vaulted former prison and a rooftop terrace lined with 16th-century cannons.",
+      "bestTime": "Weekday at the 10:00 opening, or late afternoon for softer light on the stone",
+      "entryFee": "€8 (~$9)",
+      "tip": "The tower closes on Mondays, and a combined ticket with the Mosteiro dos Jerónimos saves a few euros if you plan to see both on the same day."
+    },
+    {
+      "id": "pt-mosteiro-dos-jeronimos",
+      "name": "Mosteiro dos Jerónimos",
+      "city": "Lisbon",
+      "category": "museum",
+      "latitude": 38.69795,
+      "longitude": -9.20654,
+      "whyVisit": "Buy the timed ticket online the night before, because the walk-up queue at 11:00 can swallow an hour of your trip in summer. The two-storey cloister, not the church, is what you are actually paying for, and it is worth every cent.",
+      "description": "Commissioned by Manuel I in 1501 to celebrate Vasco da Gama's sea route to India and funded by the spice trade, the Mosteiro dos Jerónimos is the masterpiece of Manueline architecture. Its cloister is a lacework of carved limestone built on two levels, and Vasco da Gama's tomb lies just inside the church entrance.",
+      "bestTime": "Right at the 09:30 opening or after 16:00, Tuesday to Sunday",
+      "entryFee": "€12 (~$13)",
+      "tip": "The church is free and separate from the paid cloister, so you can see Vasco da Gama's tomb and the nave without buying anything at all."
+    },
+    {
+      "id": "pt-palacio-da-pena",
+      "name": "Palácio da Pena",
+      "city": "Sintra",
+      "category": "castle",
+      "latitude": 38.78762,
+      "longitude": -9.39058,
+      "whyVisit": "It looks like a wedding cake exploded on a mountaintop, and the crowds are as relentless as the colours. Take the first 09:00 slot, then escape into the wooded paths behind the palace, where the tour groups simply never bother to walk.",
+      "description": "Palácio da Pena was built between 1842 and 1854 for Ferdinand II on the ruins of a 16th-century monastery, blending neo-Gothic, neo-Manueline and Moorish revival styles. It sits at roughly 480 m in the Serra de Sintra, and on a clear day the Atlantic and the whole Lisbon coast are visible from the terraces.",
+      "bestTime": "First timed entry at 09:00, on a weekday outside August",
+      "entryFee": "€20 (~$22)",
+      "tip": "Bus 434 from Sintra station drops you at the gate, and the uphill walk takes about 40 steep minutes, so decide before your legs do."
+    },
+    {
+      "id": "pt-quinta-da-regaleira",
+      "name": "Quinta da Regaleira",
+      "city": "Sintra",
+      "category": "monument",
+      "latitude": 38.79651,
+      "longitude": -9.39604,
+      "whyVisit": "The Initiation Well is genuine theatre: you spiral down a mossy shaft into darkness and reappear through wet tunnels on the far side of the gardens. It gets busy, but the estate is large enough to absorb people far better than the Pena crowds suggest.",
+      "description": "Quinta da Regaleira is a 4-hectare Romantic estate laid out around 1900 for the wealthy collector António Augusto Carvalho Monteiro, with a palace, chapel, lakes, grottoes and the 27 m inverted Initiation Well. Its symbolism draws openly on Templar, Masonic and alchemical motifs, and the gardens are laced with underground passages.",
+      "bestTime": "08:30 to 09:00 opening, or the final two hours before closing",
+      "entryFee": "€20 (~$22)",
+      "tip": "Wear shoes with real grip, because the well steps and the tunnels stay wet and slippery even in the middle of a dry August."
+    },
+    {
+      "id": "pt-livraria-lello",
+      "name": "Livraria Lello",
+      "city": "Porto",
+      "category": "museum",
+      "latitude": 41.14687,
+      "longitude": -8.61480,
+      "whyVisit": "Yes, there is a queue and an entry ticket, and yes, it is worth twenty minutes if you honestly like books. The forked staircase is the star and everyone mobs it, so head straight for the upper gallery where you can actually breathe.",
+      "description": "Opened in 1906 in a neo-Gothic building on Rua das Carmelitas, Livraria Lello is famous for its sweeping forked staircase, stained-glass skylight bearing the motto Decus in Labore, and carved wooden shelving. J.K. Rowling taught English in Porto in the early 1990s and the shop is widely linked to Harry Potter, though she has played the connection down.",
+      "bestTime": "A weekday at opening, 09:00 to 09:30, or after 18:00",
+      "entryFee": "€8 (~$9), redeemable against a book purchase",
+      "tip": "The ticket value is credited against a book, so buy a €10 Portuguese poetry title and the visit effectively costs you nothing extra."
+    },
+    {
+      "id": "pt-ponte-dom-luis-i",
+      "name": "Ponte Dom Luís I",
+      "city": "Porto",
+      "category": "viewpoint",
+      "latitude": 41.13972,
+      "longitude": -8.60916,
+      "whyVisit": "Walk the top deck at sunset, never the bottom one, because the lower level is traffic and diesel fumes while the upper level is a tightrope over the Douro with Porto burning orange behind you. It is the single best free thing in the city.",
+      "description": "Completed in 1886 to a design by Théophile Seyrig, a former partner of Gustave Eiffel, the Ponte Dom Luís I is a double-deck metal arch bridge with a main span of 172 m between Porto and Vila Nova de Gaia. The upper deck carries metro line D about 60 m above the river, while the lower deck carries cars and pedestrians between the two riverbanks.",
+      "bestTime": "Golden hour through dusk, then after dark when the span is floodlit",
+      "entryFee": "Free",
+      "tip": "Ride the metro one stop from São Bento to Jardim do Morro on the upper deck, then walk back across the bridge for free instead of paying for the Gaia cable car."
+    },
+    {
+      "id": "pt-biblioteca-joanina",
+      "name": "Biblioteca Joanina",
+      "city": "Coimbra",
+      "category": "museum",
+      "latitude": 40.20768,
+      "longitude": -8.42651,
+      "whyVisit": "A baroque library where a protected colony of bats eats the bookworms at night and the reading tables are 18th-century ebony and rosewood. Your timed slot lasts only about twenty minutes, but you will talk about that room for years.",
+      "description": "Built between 1717 and 1728 under João V inside the University of Coimbra's Paço das Escolas, the Biblioteca Joanina holds around 250,000 volumes across three baroque halls with trompe-l'oeil ceilings, gilt shelving and a 1725 ex libris. Small bats still roost behind the shelves, and the staff cover the tables with leather sheets each evening to protect them.",
+      "bestTime": "Book the first or the last timed slot of the day; visits run about 20 minutes",
+      "entryFee": "€15 (~$16) combined ticket with the tower and palace",
+      "tip": "Tickets are timed and sell out in summer, so buy at the ticket office in the Paço das Escolas or online before you climb the hill rather than after."
+    },
+    {
+      "id": "pt-templo-romano-evora",
+      "name": "Templo Romano de Évora",
+      "city": "Évora",
+      "category": "temple",
+      "latitude": 38.57250,
+      "longitude": -7.90730,
+      "whyVisit": "A Roman temple stands in the middle of an ordinary working Portuguese town, ringed by cafes and a cathedral, and it costs you nothing to look at. Sit on the steps at dusk when the granite columns turn amber and the tour buses have finally gone home.",
+      "description": "The Templo Romano, often called the Temple of Diana, was built in the 1st century AD, probably in honour of Augustus, and its 14 surviving Corinthian granite columns still stand on a granite podium in what was the Roman forum of Ebora Liberalitas Julia. It survived partly because it was reused as a castle keep and later as a butcher's market.",
+      "bestTime": "Late afternoon into dusk, when the site is also floodlit",
+      "entryFee": "Free",
+      "tip": "The temple is fenced and viewed from outside, and the best angle is from the terrace beside Évora Cathedral, which also gives you the town rooftops for free."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "Portugal uses the euro (€), with coins of 1, 2, 5, 10, 20 and 50 cents plus €1 and €2.",
+      "Notes run from €5 to €500, but plenty of small cafes and corner shops refuse €100 and €200 notes outright.",
+      "Multibanco ATMs are on nearly every block; always decline dynamic conversion and be charged in euros to avoid a markup of 3-7%.",
+      "Keep a pocket of coins for pastelarias, rural buses, luggage lockers and the occasional paid public toilet that takes no cards."
+    ],
+    "tipping": [
+      "Tipping is not obligatory in Portugal, so rounding up or leaving 5-10% is a gesture for good service rather than an expectation.",
+      "In cafes and pastelarias locals just leave the small change, usually under €1, especially if they drank standing at the counter.",
+      "Check the bill for an added serviço or couvert charge before deciding what to add, since you may already be paying for service.",
+      "Tip taxi and tuk-tuk drivers by rounding up rather than by percentage, and ignore pressure from card machines that prompt for 10, 15 or 20%."
+    ],
+    "scams": [
+      "Pickpocket crews work tram 28 and the Baixa-Chiado metro crush, so keep phone and wallet in a zipped front pocket, never a back pocket or an open tote.",
+      "Fake drug sellers cluster on Rossio and in the lanes off Cais do Sodré, offering hash or cocaine that is usually parsley or plaster, then turning aggressive when you refuse to pay.",
+      "The couvert trap is real: bread, olives, cheese or sardine pâté land on your table unbidden and are charged per item, sometimes €5-10, so send them back untouched if you do not want them.",
+      "Airport taxi and tuk-tuk drivers quote flat inflated fares into the centre, and card machines are suddenly broken so only cash will do, so use the metro or a metered app instead."
+    ],
+    "transport": [
+      "Lisbon's rechargeable Viva Viagem card costs €0.50 and holds single trips at €1.80 or a 24-hour pass, but each traveller needs their own card.",
+      "Trains are the sane way between Lisbon, Coimbra and Porto, and booking Comboios de Portugal promo fares a week or two ahead cuts the price sharply.",
+      "Long-distance Rede Expressos and FlixBus coaches usually undercut the train, especially to Évora, Lagos, Faro and Nazaré.",
+      "Validate your ticket in the yellow machines on trams, buses and trains, because inspectors issue on-the-spot fines and being a tourist is not an excuse they accept."
+    ],
+    "etiquette": [
+      "Open with bom dia, boa tarde or boa noite before asking for anything, since skipping the greeting reads as genuinely rude.",
+      "Keep your voice down in churches, monasteries and Fado houses, and stay completely silent while a Fado singer is performing.",
+      "Do not wear beachwear away from the sand, and cover shoulders and knees inside religious sites.",
+      "A café means an espresso, and drinking it standing at the counter is both the local habit and the cheapest price in the house."
+    ],
+    "emergency": {"police": "112", "ambulance": "112", "notes": "112 is the single emergency number for police, ambulance and fire across Portugal and works from any phone, including mobiles without a local SIM. For non-urgent police matters such as a stolen passport, go to the nearest PSP or GNR station and get a written report for your insurance and embassy."}
+  }
+}

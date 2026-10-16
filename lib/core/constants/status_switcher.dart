@@ -67,6 +67,9 @@ class StatusSwitcher<T> extends StatelessWidget {
 
   Widget _buildStatusWidget(BuildContext context) {
     switch (response.status) {
+      // `initial` means "nothing has loaded yet", which to the traveller looks
+      // the same as loading. Rendering nothing here showed a blank screen.
+      case Status.initial:
       case Status.loading:
         return onLoading?.call(context) ?? _DefaultLoadingWidget();
       case Status.error:
@@ -86,8 +89,6 @@ class StatusSwitcher<T> extends StatelessWidget {
           );
         }
         return onCompleted(context, response.data);
-      default:
-        return const SizedBox.shrink();
     }
   }
 

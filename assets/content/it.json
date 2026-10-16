@@ -1,0 +1,169 @@
+{
+  "countryCode": "IT",
+  "name": "Italy",
+  "tagline": "Cheap pasta, ancient ruins, trains that actually run",
+  "region": "Southern Europe",
+  "accentColor": "#008C45",
+  "currencyCode": "EUR",
+  "primaryCity": "Rome",
+  "latitude": 41.9028,
+  "longitude": 12.4964,
+  "blurb": "Italy crams more world-class art, ruins and coastline into one country than most continents manage, and a backpacker can see a shocking amount of it on €50 a day. Sleep in hostel dorms or monastery guesthouses, eat standing at a bar with a €4 panino, and use the cheap regional trains to hop between Rome, Florence and the coast. Come in the shoulder months and the whole thing feels almost unfairly good value.",
+  "facts": {
+    "capital": "Rome",
+    "region": "Southern Europe",
+    "subregion": "Southern Europe",
+    "population": 58900000,
+    "areaKm2": 301340,
+    "currency": {"code": "EUR", "name": "Euro", "symbol": "€"},
+    "languages": ["Italian"],
+    "callingCode": "+39",
+    "drivingSide": "right",
+    "timezones": ["UTC+01:00"],
+    "powerPlug": "Type C/F/L, 230V, 50Hz",
+    "tapWater": "Safe to drink in most cities; the public nasoni fountains in Rome are drinkable",
+    "visaNote": "Italy is in the Schengen area, so most Western passport holders (US, UK, Canada, Australia, EU) enter visa-free for up to 90 days in any 180-day period. A Pakistani passport holder needs a Schengen short-stay visa, applied for in advance at an Italian embassy or consulate with proof of funds, accommodation and travel insurance, so start the paperwork at least a month before you fly.",
+    "bestMonths": "April to mid-June and September to October for warm weather without the crush and without peak prices; July is hot and packed, and August is the worst of both, with 35C-plus heat, beach crowds and many family-run shops and restaurants in cities shut for the holidays.",
+    "dailyBudget": "Roughly €45-65 a day (~$50-70) for a dorm bed, supermarket or bar food, regional trains and one paid sight; budget closer to €80 (~$88) in Venice or if you eat out twice a day.",
+    "cashVsCard": "Cards are accepted almost everywhere in cities, including contactless on buses and metro in Rome and Milan, but small bars, markets and rural trattorias may be cash-only or have a €10-15 card minimum. Many cities also charge a tourist tax of about €2-6 per person per night, payable in cash at check-in on top of your booking."
+  },
+  "landmarks": [
+    {
+      "id": "it-colosseum",
+      "name": "Colosseum",
+      "city": "Rome",
+      "category": "monument",
+      "latitude": 41.8902,
+      "longitude": 12.4922,
+      "whyVisit": "Standing on the upper tier and looking down at the exposed gladiator tunnels is the moment Rome stops being a museum and starts feeling like a machine for entertaining 50,000 people. Go first thing at opening or in the last two hours before closing and you can actually hear yourself think. Pair it with the Forum next door, which most people rush and which is honestly the better half.",
+      "description": "Built between 72 and 80 AD under the Flavian emperors, the Flavian Amphitheatre held roughly 50,000 spectators for gladiatorial games, wild beast hunts and mock sea battles. Its travertine facade and concrete vaulting still stand four storeys tall on the north side, while the arena floor is gone, leaving the underground hypogeum with its lift shafts and animal pens open to view. It is the largest amphitheatre ever built and the most visited monument in Italy.",
+      "bestTime": "At 08:30 opening or after 17:00 in summer; book a timed slot online weeks ahead, especially April to October",
+      "entryFee": "€18 (~$20) combined Colosseum, Roman Forum and Palatine Hill ticket, valid 24 hours; free first Sunday of the month but expect huge queues",
+      "tip": "The ticket is nominally timed for the Colosseum but the Forum and Palatine entry is separate and can be used once in the 24-hour window, so do the Forum first on day one and the Colosseum the next morning to spread the walking."
+    },
+    {
+      "id": "it-pantheon",
+      "name": "Pantheon",
+      "city": "Rome",
+      "category": "temple",
+      "latitude": 41.8986,
+      "longitude": 12.4769,
+      "whyVisit": "It is nearly 2,000 years old, has the largest unreinforced concrete dome on earth, and it still works as a building rather than a ruin, which is why locals treat it as a shortcut rather than a shrine. The oculus is a hole in the roof, so when it rains the water falls straight onto the marble floor and drains away through 2,000-year-old plumbing. Five euros and fifteen minutes, no queue drama if you go early.",
+      "description": "Commissioned by Marcus Agrippa around 27 BC and rebuilt by Hadrian around 126 AD, the Pantheon was a temple to all the gods and became a church in 609 AD, which is why it survived intact. The dome spans 43.3 metres, exactly equal to its interior height, with a 8.2-metre oculus at the top. Raphael is buried inside, along with several Italian kings.",
+      "bestTime": "Right at 09:00 opening on a weekday, or late afternoon when the light beam through the oculus hits the wall",
+      "entryFee": "€5 (~$5.50), cash or card at the door; free for children under 18 and Rome residents",
+      "tip": "The line looks long but moves fast because there is no security theatre, and the ticket machine by the entrance often has a shorter queue than the human cashier."
+    },
+    {
+      "id": "it-st-peters-basilica",
+      "name": "St Peter's Basilica",
+      "city": "Vatican City",
+      "category": "shrine",
+      "latitude": 41.9022,
+      "longitude": 12.4539,
+      "whyVisit": "The scale is the point: the canopy over the altar is seven storeys of bronze, and the letters running around the base of the dome are two metres tall so they read from the floor. Entry to the church is free, which makes it the best-value wonder in Europe, and the dome climb is worth the 551 steps for a view straight down into the Vatican gardens. Dress properly or you will be turned away at the rope.",
+      "description": "Built between 1506 and 1626 over the tomb of Saint Peter, the basilica was designed by Bramante, Michelangelo, Maderno and Bernini in succession. It covers 15,160 square metres, holds 60,000 people, and its dome rises 136.6 metres to the cross. Inside are Michelangelo's Pieta, Bernini's baldachin and the tombs of dozens of popes.",
+      "bestTime": "07:00 to 09:00 before the tour groups arrive, or Wednesday morning if you want to see the papal audience crowds",
+      "entryFee": "Basilica free; dome climb €10 (~$11) for 551 stairs or €17 (~$19) with the lift plus 320 stairs",
+      "tip": "The security queue along the colonnade looks endless but splits into two lines, and the left-hand one is usually shorter; also, shoulders and knees must be covered for both men and women."
+    },
+    {
+      "id": "it-florence-cathedral",
+      "name": "Florence Cathedral",
+      "city": "Florence",
+      "category": "monument",
+      "latitude": 43.7731,
+      "longitude": 11.2560,
+      "whyVisit": "Brunelleschi's dome was the engineering stunt of the Renaissance, built without a wooden support frame when everyone said it could not be done, and you can still climb inside the shell between the two domes to see how. The green and white marble facade is almost too pretty, so walk around to the back where it goes plain brown and you can see the actual medieval cathedral underneath. The whole square is free to walk through, which is the trick.",
+      "description": "Santa Maria del Fiore was begun in 1296 and consecrated in 1436, with a dome by Filippo Brunelleschi that spans 45.5 metres and rises 114.5 metres, still the largest masonry dome in the world. The exterior is clad in Carrara white, Prato green and Siena red marble, added in the 19th century. Giotto's bell tower stands 84.7 metres beside it, and the baptistery opposite has Ghiberti's golden bronze doors.",
+      "bestTime": "08:00 or after 18:30; the piazza itself is best at dawn before the vendors set up",
+      "entryFee": "Cathedral free but requires a timed reservation; the combined Giotto Pass for dome, bell tower, baptistery and museum is €30 (~$33)",
+      "tip": "The free cathedral entry line is separate from the paid dome line, and reserving the free slot online a few days out saves an hour of standing in the sun with no shade."
+    },
+    {
+      "id": "it-uffizi-gallery",
+      "name": "Uffizi Gallery",
+      "city": "Florence",
+      "category": "museum",
+      "latitude": 43.7677,
+      "longitude": 11.2553,
+      "whyVisit": "This is the single densest room-to-room hit rate of Renaissance painting anywhere, Botticelli's Birth of Venus and Leonardo's Annunciation in the same long corridor, and the building itself was designed as offices, which is why the top floor has those huge windows over the Arno. Do not try to see everything; pick two wings and leave before your eyes glaze over. Book the first slot of the day and you get the Botticelli room nearly empty.",
+      "description": "Built between 1560 and 1581 by Giorgio Vasari as administrative offices for the Medici, the Uffizi opened to the public in 1769 and holds some 3,000 works spanning the 13th to 18th centuries. Highlights include Botticelli's Birth of Venus and Primavera, Leonardo's Annunciation, Michelangelo's Doni Tondo and Caravaggio's Medusa. The gallery sits directly beside the Ponte Vecchio over the Arno.",
+      "bestTime": "First slot at 08:15 on a weekday, or the late Tuesday opening in summer",
+      "entryFee": "€25 (~$27) peak season, €12 (~$13) low season; €2 booking fee online, free first Sunday but chaotic",
+      "tip": "The exit route dumps you at the Ponte Vecchio end and the cafe terrace on the top floor has the same view as the paid viewpoint next door for the price of a coffee."
+    },
+    {
+      "id": "it-st-marks-basilica",
+      "name": "St Mark's Basilica",
+      "city": "Venice",
+      "category": "shrine",
+      "latitude": 45.4345,
+      "longitude": 12.3397,
+      "whyVisit": "The floor is uneven because the whole thing is floating on wooden piles in a lagoon, and the interior is covered in 8,000 square metres of gold mosaic that glows when the lights come on at midday. It is a looted treasury as much as a church, with the bronze horses above the door stolen from Constantinople. Entry is cheap but the queue control is weird, so read up before you join the wrong line.",
+      "description": "Consecrated in 1094 and rebuilt over centuries, St Mark's is a Byzantine-style basilica holding the relics of Saint Mark the Evangelist, smuggled from Alexandria in 828. Its five domes, 8,000 square metres of gold-ground mosaic and the Pala d'Oro altarpiece of 250 enamel panels make it one of the richest churches in Europe. The four bronze horses on the facade are Roman originals, with replicas now on display outside.",
+      "bestTime": "Right at 09:30 opening, or after 16:00 when the mosaics light up and the cruise crowds thin",
+      "entryFee": "Basilica €3 (~$3.30) with online reservation, museum and horses €10 (~$11), Pala d'Oro €5 (~$5.50), free for prayer entry",
+      "tip": "There are three separate queues for the church, the museum and the golden altarpiece, and the free prayer entrance on the north side skips the main line if you are genuinely going in to pray rather than look."
+    },
+    {
+      "id": "it-manarola",
+      "name": "Manarola",
+      "city": "Cinque Terre",
+      "category": "neighbourhood",
+      "latitude": 44.1069,
+      "longitude": 9.7269,
+      "whyVisit": "The postcard view of Cinque Terre is essentially this one village, painted houses stacked on a black rock spur above a swimming hole, and it is the cheapest of the five to actually enjoy because you can swim off the concrete ramp for free. It is small enough to walk in fifteen minutes and steep enough that you will feel it. Skip the crowded coastal path in high summer and take the upper vineyard trail instead.",
+      "description": "Manarola is the second-smallest of the Cinque Terre villages, a cluster of pastel houses above a narrow inlet on the Ligurian coast, with origins in the 12th century. Its terraced vineyards produce Sciacchetra, a sweet white passito wine, and the Via dell'Amore path connects it to Riomaggiore. The village has its own small harbour ramp used for swimming and boat launching.",
+      "bestTime": "May, June or September for swimming weather without the August crush; the famous Christmas nativity light display runs December to January",
+      "entryFee": "Free to enter the village; Cinque Terre Card for the trails and trains is €7.50-18.20 per day depending on season",
+      "tip": "The swimming spot is the concrete ramp below the marina, not the rocky beach, and there are no free toilets in the village, so use the paid ones at the train station before you walk up."
+    },
+    {
+      "id": "it-pompeii",
+      "name": "Pompeii Archaeological Park",
+      "city": "Pompeii",
+      "category": "museum",
+      "latitude": 40.7494,
+      "longitude": 14.4842,
+      "whyVisit": "It is a whole Roman city, not a ruin, with bakeries, brothels, bars and election graffiti still legible on the walls, and it covers 66 hectares so you can genuinely get lost and end up alone in a back street. The plaster casts of the victims are the part everyone remembers, but the ordinary stuff, the millstones and the countertop snack bars, is what makes it feel inhabited. Bring water and wear real shoes.",
+      "description": "Buried under four to six metres of ash and pumice when Vesuvius erupted in 79 AD, Pompeii was a prosperous Roman town of around 11,000 people and was preserved in extraordinary detail. Excavation began in 1748 and continues today, exposing the Forum, the amphitheatre, temples, baths, theatres and dozens of houses with intact frescoes. The site receives around 2.5 million visitors a year.",
+      "bestTime": "At 09:00 opening, or after 15:00 in spring and autumn when the heat drops and tour buses leave",
+      "entryFee": "€18 (~$20) for Pompeii, or €22 (~$24) including Oplontis and Boscoreale; free first Sunday of the month",
+      "tip": "Enter at the Porta Marina gate near the train station rather than the Piazza Anfiteatro entrance, since the crowds flow the other way and you will walk the Forum downhill instead of up."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "Italy uses the euro; notes come in 5, 10, 20, 50, 100, 200 and 500, and shops routinely refuse 200s and 500s, so break them at a bank or supermarket.",
+      "Withdraw from a bank ATM (look for Banca d'Italia or Intesa Sanpaolo branding) rather than a standalone Euronet machine, which adds its own fee on top of your bank's.",
+      "Always choose to be charged in euros, not your home currency, when a card terminal offers the conversion, since the dynamic conversion rate is usually 3-5% worse.",
+      "Keep €20-30 in coins and small notes for market stalls, church donation boxes, toilets and the city tourist tax that many hostels collect in cash."
+    ],
+    "tipping": [
+      "Tipping is not expected in Italy; a service charge (servizio) of 10% is sometimes already on the bill, especially in tourist areas.",
+      "At a bar, drinking your coffee standing at the counter costs less than sitting at a table, and no tip is needed either way.",
+      "Round up to the nearest euro or leave a euro or two for genuinely good table service, but never feel obliged to leave 15-20% as you would in the US."
+    ],
+    "scams": [
+      "Colosseum gladiator photo scam: men in cheap plastic armour pose with you near the Colosseum and then demand €20-50 per person, turning aggressive if you refuse, so do not hand over your phone or pose unless you agree a price first.",
+      "Fake petition or baby-distraction teams around Termini station and the metro: one person shoves a clipboard or a baby at you while another goes for your bag, so keep your backpack on your front and keep walking.",
+      "Unlicensed airport taxis: at Fiumicino and Ciampino, drivers approach you inside the terminal offering a 'flat rate' that is two or three times the official fare, so only use the white licensed taxis at the rank or a marked rideshare pickup point.",
+      "Coperto and menu surprises: a cover charge of €2-5 per person plus bread you did not order can double a cheap meal, and some places near landmarks charge tourist menus with hidden service fees, so read the small print on the menu board before sitting down.",
+      "Ticket touts outside the Colosseum, Vatican Museums and Uffizi claiming today is 'sold out' and offering skip-the-line tickets at triple price, when the official website almost always still has slots and the real queue moves in 20-40 minutes."
+    ],
+    "transport": [
+      "Regional trains (Regionale) are the cheapest way between cities and do not need seat reservations, while Frecciarossa and Italo high-speed trains are faster but should be booked one to two months ahead for the cheapest fares.",
+      "Validate your paper ticket in the green machine on the platform before boarding a regional train or bus, or you risk a fine even with a valid ticket.",
+      "In Rome, Milan and Naples the metro and buses take contactless bank cards directly at the gate, which is usually easier than buying a ticket from a machine.",
+      "Night trains and long-distance buses (FlixBus, Itabus) are the budget option for crossing the country overnight, and a dorm bed on a sleeper costs less than a hotel night in most cities."
+    ],
+    "etiquette": [
+      "Cover shoulders and knees to enter churches, including St Peter's and St Mark's, and stay quiet during services rather than treating them as sightseeing stops.",
+      "Do not order a cappuccino after about 11:00 in the morning; Italians see it as a breakfast drink and will judge you silently rather than say anything.",
+      "Never sit on the steps of a monument or bridge to eat, especially in Venice and Florence, where sitting on the Ponte Vecchio or church steps can draw a fine.",
+      "Greet shopkeepers with buongiorno before 17:00 and buonasera after, and say per favore and grazie, since a bare request in English reads as rude even when the person speaks English."
+    ],
+    "emergency": {"police": "112", "ambulance": "118", "notes": "112 is the European universal emergency number and works from any phone including locked mobiles, and it covers police, fire and ambulance; 118 is the dedicated medical emergency line. For non-urgent tourist police matters there is a tourist police office in most major city centres, and your embassy in Rome handles lost passports."}
+  }
+}

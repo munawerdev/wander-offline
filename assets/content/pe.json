@@ -1,0 +1,173 @@
+{
+  "countryCode": "PE",
+  "name": "Peru",
+  "tagline": "Inca ruins, ceviche and $10 beds: Peru on a shoestring",
+  "region": "South America",
+  "accentColor": "#D91023",
+  "currencyCode": "PEN",
+  "primaryCity": "Lima",
+  "latitude": -12.0464,
+  "longitude": -77.0428,
+  "blurb": "Peru squeezes more into one country than most continents do: Inca stonework at 3,400 m, Amazon rainforest, desert oases and 2,400 km of surf coast. Backpacker money stretches far here, with hostel dorms from S/25, set lunches from S/8 and buses that cost a fraction of flying. Trekking permits and Machu Picchu tickets are the big costs, but cheap markets, colectivos and street food balance them out. Come for the famous ruins, stay for the ceviche, the mountain markets and the cold, bright Andean mornings.",
+  "facts": {
+    "capital": "Lima",
+    "region": "South America",
+    "subregion": "South America",
+    "population": 34400000,
+    "areaKm2": 1285216,
+    "currency": {"code": "PEN", "name": "Peruvian sol", "symbol": "S/"},
+    "languages": ["Spanish", "Quechua", "Aymara"],
+    "callingCode": "+51",
+    "drivingSide": "right",
+    "timezones": ["UTC-05:00"],
+    "powerPlug": "Type A/B/C, 220V, 60Hz",
+    "tapWater": "Not safe to drink; bottled or boiled water only",
+    "visaNote": "Most Western passport holders (EU, UK, US, Canada, Australia) enter visa-free as tourists for up to 183 days and simply need proof of onward travel. Pakistani passport holders need a visa before travelling: apply in advance at a Peruvian consulate with a completed form, photo, bank statements, itinerary and hotel bookings, and allow a few weeks for processing.",
+    "bestMonths": "May to September is the dry season and the best window for Cusco, Machu Picchu, the Sacred Valley and the Inca Trail, with clear mornings and very cold nights. On the coast, Lima sits under the grey garua fog from roughly May to November, so beach and surf time is better from December to April.",
+    "dailyBudget": "A backpacker can travel on roughly S/110-160 (about $30-43) a day: S/25-45 for a dorm bed, S/8-15 for a menu del dia, S/5-20 for local transport and S/20-40 for a tour or entry fee. Add trekking permits and flights and a Cusco trekking week can climb to S/200-260 (about $55-70) a day.",
+    "cashVsCard": "Cards are accepted in city hotels, supermarkets, tour agencies and mid-range restaurants in Lima, Cusco and Arequipa, but markets, buses, rural shops, colectivos and most village stays are cash-only. Withdraw soles from ATMs inside bank branches (BCP, Interbank, Scotiabank) during daylight, expect limits around S/400-700 per transaction, and keep small notes for taxis and snacks."
+  },
+  "landmarks": [
+    {
+      "id": "pe-machu-picchu",
+      "name": "Machu Picchu",
+      "city": "Machu Picchu",
+      "category": "monument",
+      "latitude": -13.1631,
+      "longitude": -72.5450,
+      "whyVisit": "Nothing really prepares you for the scale of it: terraces folded along a knife-edge ridge with a 600 m drop on one side and cloud forest on the other. Walk up to the Sun Gate early and sit above the site while the tour groups stream in below. It is the one genuinely expensive day in Peru and it is still worth every sol.",
+      "description": "Machu Picchu was built around 1450 for the Inca emperor Pachacuti and abandoned within a century, staying unknown to the outside world until Hiram Bingham reached it in 1911. The citadel contains roughly 200 buildings, including the Temple of the Sun, the Intihuatana stone and long flights of agricultural terraces, inside a protected sanctuary of about 32,500 hectares.",
+      "bestTime": "May to September for dry weather; aim for the 06:00 opening and buy tickets online months ahead.",
+      "entryFee": "S/152 (~$41) for the general circuit, plus S/80-150 for the bus or a train ticket from Ollantaytambo.",
+      "tip": "Buy the official ticket at machupicchu.gob.pe before you leave home and check which circuit you are booking, because only some circuits reach the classic postcard viewpoint. Any 'last tickets' sold in Cusco are overpriced tours, not entrance tickets."
+    },
+    {
+      "id": "pe-sacsayhuaman",
+      "name": "Sacsayhuaman",
+      "city": "Cusco",
+      "category": "monument",
+      "latitude": -13.5095,
+      "longitude": -71.9822,
+      "whyVisit": "The stones here are fitted so tightly you cannot slide a knife between them, and some blocks weigh over 100 tonnes with no agreed explanation of how they were moved. Come in the late afternoon when the limestone turns gold and the groups thin out. There is almost no signage, so read up before you go rather than paying for a rushed tour.",
+      "description": "Sacsayhuaman was begun under Pachacuti in the 15th century and took decades of labour by tens of thousands of workers. It is built in three terraced zigzag walls of enormous limestone blocks, with earlier Killke foundations underneath, and served as both ceremonial complex and fortress above Cusco. Much of its stone was later carted away by the Spanish for churches and houses in the city below.",
+      "bestTime": "Late afternoon, roughly 15:30 to 17:30, for warm light and fewer people; the site is fully exposed, so bring sun protection.",
+      "entryFee": "S/70 (~$19) for the 1-day partial ticket covering Sacsayhuaman, Q'enqo, Puka Pukara and Tambomachay; the 10-day general pass costs S/130 (~$35).",
+      "tip": "Buy the Boleto Turistico at the COSITUC office on Avenida El Sol and check which circuit you are getting, then walk up from the Plaza de Armas via Calle Resbalosa instead of paying a taxi to the top gate."
+    },
+    {
+      "id": "pe-qorikancha",
+      "name": "Qorikancha (Temple of the Sun)",
+      "city": "Cusco",
+      "category": "temple",
+      "latitude": -13.5202,
+      "longitude": -71.9752,
+      "whyVisit": "It is a strange and brilliant collision: a Dominican church and convent built directly on top of the most sacred temple in the Inca empire, with the original curved stonework still standing inside. The Inca masonry here is the finest in Cusco, with joints thinner than anything at Sacsayhuaman. Go on a clear morning when the sun reaches the surviving walls.",
+      "description": "Qorikancha was the religious heart of the Inca world, its walls once covered in gold sheets and its courtyards aligned to the solstices. The Spanish stripped the gold, demolished much of the complex and built the Convento de Santo Domingo over the foundations from 1534. Today you walk through both layers, with Inca chambers and corridors below and colonial cloisters and a painted church above.",
+      "bestTime": "Mornings right after the 08:00 opening for quiet courtyards and better light; afternoons are busiest.",
+      "entryFee": "S/15 (~$4) for the combined church and convent; the Cusco tourist pass does not cover it.",
+      "tip": "Look at the curved Inca retaining wall on the plaza outside the entrance first, since it is free and shows the stonework before you pay. Bring a small note, because the ticket office often cannot change a S/100."
+    },
+    {
+      "id": "pe-miraflores-parque-kennedy",
+      "name": "Miraflores and Parque Kennedy",
+      "city": "Lima",
+      "category": "neighbourhood",
+      "latitude": -12.1219,
+      "longitude": -77.0297,
+      "whyVisit": "This is where you actually want to sleep in Lima: walkable streets after dark, cheap menus, cevicherias around the corner and the clifftop Malecon ten minutes away. The park fills with cats, art sellers and street food in the evening, and the Pacific sunset from the cliff path is genuinely good. Base here and Lima stops being just a stopover.",
+      "description": "Miraflores is a coastal district of Lima built on top of 60 to 80 m cliffs above the Pacific, with Parque Kennedy as its commercial centre. The roughly 6 km Malecon de Miraflores runs along the clifftop past parks, a small lighthouse and paragliding launch points, linking up with Barranco to the south.",
+      "bestTime": "Any time of year for food and nightlife; December to April for clear coastal sunsets, since May to November brings the grey garua fog.",
+      "entryFee": "Free",
+      "tip": "Get a Metropolitano card (about S/3.20 a ride) or use a taxi app instead of hailing street cabs, and eat your main meal at lunch when the menu del dia costs S/12-18 rather than double that at dinner."
+    },
+    {
+      "id": "pe-mercado-surquillo",
+      "name": "Mercado N 1 de Surquillo",
+      "city": "Lima",
+      "category": "market",
+      "latitude": -12.1136,
+      "longitude": -77.0231,
+      "whyVisit": "Skip the polished tourist markets and come to this working Lima market, where you can eat a S/10 ceviche at a counter, buy a bag of lucuma for pocket change and try fruit you cannot name. The juice stalls alone justify the trip. Go hungry, carry small notes and ask before photographing people's faces.",
+      "description": "Mercado N 1 de Surquillo sits on the border of Miraflores and Surquillo and is one of Lima's main food markets for both wholesale and retail trade. Stalls sell Amazonian and Andean fruit, fish landed at Callao, cheese, chicha and prepared dishes, while the surrounding streets are packed with cevicherias and pollerias.",
+      "bestTime": "Weekday mornings from about 08:00 to 12:00, when the fish is freshest and the aisles are still passable.",
+      "entryFee": "Free to enter; dishes from S/8-20.",
+      "tip": "Ceviche is a lunch dish in Peru, so stalls sell out and shut by mid-afternoon and you should avoid any place that is empty at noon. Bring small soles notes, because change for a S/50 or S/100 is genuinely hard to get."
+    },
+    {
+      "id": "pe-santa-catalina",
+      "name": "Monasterio de Santa Catalina",
+      "city": "Arequipa",
+      "category": "museum",
+      "latitude": -16.3950,
+      "longitude": -71.5360,
+      "whyVisit": "It is a walled city inside a city: 20,000 sq m of vivid blue and orange alleys, kitchens, cloisters and private cells that housed nuns from wealthy Spanish families for over 400 years. It is far larger and stranger than the photos suggest, and it is easy to lose two or three hours wandering. Go at opening to have the courtyards to yourself.",
+      "description": "Founded in 1579 and closed to the public until 1970, Santa Catalina was a convent for the daughters of Spanish families, who entered with dowries and lived in private cells with servants. Its streets and three cloisters are built from Arequipa's white sillar volcanic stone, and a small community of nuns still lives in a separate, closed section of the complex.",
+      "bestTime": "Right at the 09:00 opening or after 15:00; the site is mostly open sky, so Arequipa's midday sun is harsh.",
+      "entryFee": "S/50 (~$14) for adults; occasional evening visits with candles and music are offered for a higher price.",
+      "tip": "There is no clear one-way route and almost no shade, so take water and allow a full two hours rather than the 45 minutes most tours allow. Pair it with the nearby Iglesia de la Compania and a cheap picanteria lunch instead of a plaza-side restaurant."
+    },
+    {
+      "id": "pe-cruz-del-condor",
+      "name": "Cruz del Condor (Colca Canyon)",
+      "city": "Chivay",
+      "category": "viewpoint",
+      "latitude": -15.5922,
+      "longitude": -71.8831,
+      "whyVisit": "You stand on the rim of a canyon more than twice as deep as the Grand Canyon while Andean condors ride the morning thermals past your head at eye level. It is not a zoo, so some mornings they simply do not show, which keeps the whole thing honest. Arrive by 07:30 and take the far-left ledge for the closest passes.",
+      "description": "The Cruz del Condor mirador sits at about 3,700 m on the southern rim of the Colca Canyon, roughly 1,200 m above the river below. The canyon reaches depths of over 3,200 m and holds one of the largest populations of Andean condors, which nest in the walls and launch out on morning updrafts.",
+      "bestTime": "06:30 to 09:00, when the condors ride the warming air; the May to September dry season gives the clearest views.",
+      "entryFee": "S/70 (~$19) Colca tourist ticket (Boleto Turistico del Colca), valid for two days.",
+      "tip": "Organised tours leave Chivay between 05:30 and 06:00 and the mirador car park fills fast, so confirm your departure time the night before. If you sleep in Cabanaconde you can reach the mirador independently and walk down to the canyon villages afterwards."
+    },
+    {
+      "id": "pe-uros-floating-islands",
+      "name": "Uros Floating Islands",
+      "city": "Puno",
+      "category": "nature",
+      "latitude": -15.8394,
+      "longitude": -69.9856,
+      "whyVisit": "The islands are made of reeds, and so are the boats, the houses and, in lean years, the food, which makes this one of the oddest places you will ever stand on. It is touristy and you will be nudged to buy crafts, but the engineering is genuinely impressive once a family shows you how the blocks are layered and anchored. Take a slow local boat from Puno's muelle rather than a big tour bus if you can.",
+      "description": "The Uros are a group of roughly 80 to 120 artificial islands built from totora reeds in Lake Titicaca, about 5 km east of Puno. Each island is a thick mat of layered reeds anchored to the lake bed with ropes and stakes, and the Uru people have lived on and around them for centuries, fishing the lake and weaving reeds.",
+      "bestTime": "May to September for clear, cold mornings; take the first boats out around 07:30 before the tour groups arrive.",
+      "entryFee": "Free to visit independently, though islanders expect a small community payment and craft purchases; organised half-day tours run S/30-60.",
+      "tip": "If a family invites you onto an island, agree the price of the reed-boat ride, often quoted at S/10-20, before you step in. Puno sits at 3,800 m, so plan a quiet first afternoon and keep coca tea or acetazolamide handy."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "Soles come in notes of 10, 20, 50, 100 and 200; small 10 and 20 sole notes are the practical currency for markets, buses and snacks, so break big notes at supermarkets.",
+      "Withdraw from ATMs inside bank branches (BCP, Interbank, Scotiabank) during daylight; limits are around S/400-700 per transaction with fees of about S/15-20, so take out the maximum each time.",
+      "Keep a few hundred soles in cash for buses, boats, village stays and park entries, and save cards for city hotels, flights and supermarket shopping.",
+      "Change money at casas de cambio or bank counters rather than on the street, ask for a receipt, and check every note for the watermark and security thread because counterfeit soles circulate in Cusco and Lima."
+    ],
+    "tipping": [
+      "Restaurants: 10 percent is standard when service is not included, but many places add it automatically for groups, so read the bill before paying.",
+      "Trekking crews: budget S/50-100 per day for a guide and S/30-60 per day for a porter on a multi-day hike, and hand the money over directly at the end.",
+      "Taxis are not tipped; agree the fare before you get in, or use the app price, and round up only if the driver helps with heavy bags.",
+      "Hostels and hotels: S/5-10 for housekeeping or a porter, and in cafes and bars round up or leave S/2-5 rather than a percentage."
+    ],
+    "scams": [
+      "Airport and bus-terminal taxi drivers in Lima and Cusco quote tourists three to five times the going rate and sometimes claim your hostel is closed or full to divert you elsewhere; book a taxi app or an official green taxi and confirm the price before the doors close.",
+      "Touts in Cusco sell 'last-minute' Machu Picchu or Inca Trail tickets for sites that are genuinely sold out, or fake entry passes; official tickets come only from machupicchu.gob.pe and the Ministry of Culture office on Calle Garcilaso, never from a street seller.",
+      "Fake trekking agencies take cash deposits in Cusco for Salkantay or Inca Trail trips and then vanish, or bus you to a trailhead without permits; use a registered agency with a real office, pay only a small deposit, and read the cancellation terms before handing anything over.",
+      "In Lima's tourist districts such as Miraflores and Barranco, watch your drink, refuse free shots from friendly strangers and check bar bills for inflated totals or added service; street money changers also pass counterfeit soles, so count and inspect every note."
+    ],
+    "transport": [
+      "Long-distance buses are the backpacker standard: Cruz del Sur and Oltursa cost more but are safer and more comfortable, while economy lines run Lima to Cusco in about 21 to 24 hours, so book overnight to save a night of accommodation.",
+      "In cities use Uber, Cabify or Taxi Beat rather than hailing street cabs, and in Lima the Metropolitano bus or Metro de Lima costs roughly S/1.50-3.20 per ride with a rechargeable card.",
+      "For the Sacred Valley, Colca and day trips, colectivos (shared vans and minibuses) leave when full and cost a fraction of an organised tour; confirm the fare and the final destination before boarding.",
+      "Altitude is the real transport issue around Cusco: arrive slowly, spend the first day resting and drinking water or coca tea, ask a pharmacy about acetazolamide, and note that the train from Ollantaytambo to Aguas Calientes is the easiest way to reach Machu Picchu without crossing another high pass."
+    ],
+    "etiquette": [
+      "Greet with buenos dias or buenas tardes when you enter a shop, restaurant or bus, and say permiso when squeezing past someone; it is noticed and usually returned.",
+      "Ask before photographing people, especially in Cusco, the Sacred Valley and Puno, and expect to pay a sol or two for posed photos of women in traditional dress holding llamas or lambs.",
+      "Quechua and Aymara are living languages, so a few words such as allianchu or sulpayki go a long way in markets and villages, and locals appreciate the attempt even when you get it wrong.",
+      "In churches, convents and monasteries keep shoulders and knees covered and remove your hat; during Inti Raymi, Semana Santa and Puno's Virgen de la Candelaria expect big crowds, higher prices and some sites closed."
+    ],
+    "emergency": {
+      "police": "105",
+      "ambulance": "106",
+      "notes": "The tourist police (Policia de Turismo) have offices in Lima, Cusco and Arequipa and speak some English, while the general police line is 105 and ambulance is 106. Many rural clinics and private hospitals expect cash payment up front, so carry your insurance details and a card that works in Peruvian ATMs."
+    }
+  }
+}

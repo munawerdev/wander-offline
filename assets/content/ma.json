@@ -1,0 +1,173 @@
+{
+  "countryCode": "MA",
+  "name": "Morocco",
+  "tagline": "Mint tea, medina mazes and Sahara stars on a shoestring",
+  "region": "North Africa",
+  "accentColor": "#C1272D",
+  "currencyCode": "MAD",
+  "primaryCity": "Marrakesh",
+  "latitude": 31.6295,
+  "longitude": -7.9811,
+  "blurb": "Morocco squeezes snow-capped mountains, Sahara dunes, Atlantic surf towns and thousand-year-old medinas into a country you can cross by train for the price of a pizza. Backpackers eat exceptionally well for almost nothing, sleep on rooftop riads for a few dollars, and can haggle, hike or share a grand taxi to the next adventure. The trick is to slow down, learn a few words of Darija, and let the mint tea arrive before the map does. It is cheap, chaotic and genuinely unlike anywhere else.",
+  "facts": {
+    "capital": "Rabat",
+    "region": "North Africa",
+    "subregion": "Northern Africa",
+    "population": 37800000,
+    "areaKm2": 446550,
+    "currency": {"code": "MAD", "name": "Moroccan dirham", "symbol": "د.م."},
+    "languages": ["Arabic", "Berber"],
+    "callingCode": "+212",
+    "drivingSide": "right",
+    "timezones": ["UTC+01:00"],
+    "powerPlug": "Type C/E, 220V, 50Hz",
+    "tapWater": "Not safe to drink; bottled water only",
+    "visaNote": "Most Western passport holders (EU, UK, US, Canada, Australia) get 90 days visa-free on arrival. Pakistani passport holders need a visa before travel and must apply in advance through a Moroccan embassy or consulate, usually with confirmed accommodation, return tickets, bank statements and travel insurance.",
+    "bestMonths": "March to May and September to November are ideal, with warm days, cool nights and comfortable walking weather. July and August are brutally hot inland in Marrakesh and Fes, where afternoons often top 40C, while December to February brings cold rain on the coast and snow in the Atlas, so pack real layers.",
+    "dailyBudget": "Roughly 250-400 MAD (~$25-40) a day: 80-150 MAD for a dorm bed or basic riad room, 60-100 MAD for street food and a cheap tagine, and the rest on trains, buses, petit taxis and entry fees.",
+    "cashVsCard": "Morocco runs on cash, so souks, petit taxis, buses, small cafes and rural guesthouses take dirhams only. ATMs are easy to find in cities and at airports and cards work at hotels, riads, upmarket restaurants and larger supermarkets, but almost never inside the medina."
+  },
+  "landmarks": [
+    {
+      "id": "ma-jemaa-el-fnaa",
+      "name": "Jemaa el-Fnaa",
+      "city": "Marrakesh",
+      "category": "market",
+      "latitude": 31.6258,
+      "longitude": -7.9891,
+      "whyVisit": "Come at dusk, not midday, when the square turns into a wall of sound: storytellers, Gnawa drummers and dozens of food stalls throwing smoke across the whole plaza. Sitting still for an hour is the entire activity here, and it costs nothing. Eat at the stalls packed with Moroccan families rather than the ones with picture menus and touts out front.",
+      "description": "Jemaa el-Fnaa is the vast open square at the heart of the Marrakesh medina, recognised by UNESCO as intangible cultural heritage and used as a market and gathering place for nearly a thousand years. By day it is juice carts, orange stalls and snake charmers; after sunset it fills with open-air kitchens, musicians and crowds that can number in the tens of thousands.",
+      "bestTime": "Late afternoon into the evening, roughly 6-10pm; mornings are quiet",
+      "entryFee": "Free",
+      "tip": "Photographing the snake charmers and monkey handlers nearly always ends in a demand for money, so shoot from a distance with a zoom instead of raising a phone right in front of them."
+    },
+    {
+      "id": "ma-koutoubia-mosque",
+      "name": "Koutoubia Mosque",
+      "city": "Marrakesh",
+      "category": "monument",
+      "latitude": 31.6238,
+      "longitude": -7.9931,
+      "whyVisit": "The Koutoubia is the landmark that makes Marrakesh make sense: a 77-metre minaret that lines up with the snowcapped Atlas on a clear day and anchors every sunset photo in the city. You cannot go inside as a non-Muslim, but the gardens and the surrounding square are worth the walk on their own. Go at golden hour, then wander into the spice souk behind it.",
+      "description": "Built in the 12th century under the Almohad dynasty, the Koutoubia is Marrakesh's largest mosque and its minaret became the template for the Giralda in Seville and the Hassan Tower in Rabat. The name comes from the kutubiyyin, the booksellers who once traded in the surrounding streets. The tower is decorated with banded stonework and topped by four copper globes.",
+      "bestTime": "Sunset, or early morning before the heat builds",
+      "entryFee": "Free (exterior and gardens; non-Muslims cannot enter the mosque)",
+      "tip": "The terrace of a cafe north of the square is the easy free viewpoint, but the gardens on the western side are quieter and give the cleanest straight-on angle for photos."
+    },
+    {
+      "id": "ma-jardin-majorelle",
+      "name": "Jardin Majorelle",
+      "city": "Marrakesh",
+      "category": "nature",
+      "latitude": 31.6417,
+      "longitude": -8.0031,
+      "whyVisit": "It is small, it is expensive by Moroccan standards, and it is still worth it: that electric cobalt blue against cactus and bamboo looks genuinely unreal in person. Go right at opening, because by 10am the narrow paths become a queue of selfie sticks. Pair it with the Berber Museum inside and the Yves Saint Laurent museum next door for a proper half-day.",
+      "description": "The painter Jacques Majorelle laid out the garden in the 1920s and 1930s, filling it with cacti, bamboo and palms collected from across the world and painting his Art Deco studio the intense blue that now carries his name. It opened to the public in 1947, decayed after his death, and was bought and restored by Yves Saint Laurent and Pierre Berge in 1980.",
+      "bestTime": "Right at the 8am opening, or the last hour before closing",
+      "entryFee": "150 MAD (~$15) for the garden; combined tickets with the YSL Museum cost more",
+      "tip": "Buy tickets online the day before, because the on-site queue can eat an hour and staff stop letting new visitors in well before the official closing time."
+    },
+    {
+      "id": "ma-hassan-ii-mosque",
+      "name": "Hassan II Mosque",
+      "city": "Casablanca",
+      "category": "temple",
+      "latitude": 33.6083,
+      "longitude": -7.6325,
+      "whyVisit": "This is the one mosque in Morocco a non-Muslim can properly tour, and the interior is absurd in the best way: a glass floor over the Atlantic, a retractable roof and a minaret that dwarfs the whole city. It makes Casablanca's modern sprawl suddenly worth a day. Take the guided tour rather than just circling the outside.",
+      "description": "Completed in 1993 and built partly out over the ocean on a rocky outcrop, the Hassan II Mosque is the largest in Africa and one of the largest in the world, with room for around 25,000 worshippers inside and 80,000 more on the esplanade. Its minaret rises 210 metres, among the tallest on earth, and the cedar ceiling, zellij tilework and carved plaster came from artisans across Morocco.",
+      "bestTime": "Morning guided tours; times shift with prayer, so check the day before",
+      "entryFee": "140 MAD (~$14) for the non-Muslim guided tour",
+      "tip": "The tours are the only way in for non-Muslims and they do sell out, and the ticket office sits inside the complex on the far side from the main road, so arrive 30 minutes early with shoulders and knees covered."
+    },
+    {
+      "id": "ma-hassan-tower",
+      "name": "Hassan Tower",
+      "city": "Rabat",
+      "category": "monument",
+      "latitude": 34.0243,
+      "longitude": -6.8226,
+      "whyVisit": "Most travellers skip Rabat and miss the strangest monument in Morocco: an unfinished 12th-century minaret standing in a forest of hundreds of broken column stumps. It is calm, free and rarely crowded, which feels like a small miracle after Marrakesh. Combine it with the Mausoleum of Mohammed V next door, where the guard change is genuinely impressive.",
+      "description": "Sultan Yacoub al-Mansour began an enormous mosque here in 1195 and intended it to be the largest in the world, but work stopped when he died in 1199 and the building was never finished. The Hassan Tower was meant to be its minaret and stands about 44 metres high, roughly half its planned height. The site is a field of column bases watched over by the ornate Mausoleum of Mohammed V, completed in 1971.",
+      "bestTime": "Late afternoon, when the light hits the stone and the tour buses have gone",
+      "entryFee": "Free",
+      "tip": "The mausoleum is free to enter and non-Muslims are welcome, but guards wave you back if you point a camera at the tomb itself, so keep the lens low and shoot the carved ceilings instead."
+    },
+    {
+      "id": "ma-kasbah-of-the-udayas",
+      "name": "Kasbah of the Udayas",
+      "city": "Rabat",
+      "category": "castle",
+      "latitude": 34.0317,
+      "longitude": -6.8361,
+      "whyVisit": "This is what people imagine when they picture a blue-and-white Moroccan kasbah, and unlike Chefchaouen it is quiet enough to actually enjoy. The alleys are tiny, the walls are whitewashed blue, and the terrace at the top looks straight out over the river mouth and the Atlantic. Give it an hour, then walk down to the medina for cheap grilled fish.",
+      "description": "The Kasbah of the Udayas is a fortified quarter founded in the 12th century on the bluff above the Bou Regreg river, later expanded by the Almohads and used by Andalusian refugees and by the corsairs known as the Udaya. Inside its walls are narrow blue-washed lanes, the remains of a mosque and the Jardins des Oudayas, a formal garden laid out in the French protectorate era. The gate known as Bab Oudaia is one of the finest Almohad gateways in Morocco.",
+      "bestTime": "Morning for photos in the alleys, late afternoon for the river terrace",
+      "entryFee": "Free (small charge for the gardens and the small museum)",
+      "tip": "Residents live behind most of those blue doors, so keep your voice down and ask before photographing doorways, and note the main gate closes for the night earlier than you would expect."
+    },
+    {
+      "id": "ma-ait-benhaddou",
+      "name": "Ait Benhaddou",
+      "city": "Ait Benhaddou",
+      "category": "neighbourhood",
+      "latitude": 31.0472,
+      "longitude": -7.1319,
+      "whyVisit": "The earthen ksar stacked on its hill is the single most photogenic thing on the road south of the Atlas, and yes, you have seen it in Gladiator and Game of Thrones. Climb to the top in the late afternoon when the mud walls glow orange and the tour buses have left. Stay overnight in the village so you get the place almost to yourself at sunrise.",
+      "description": "Ait Benhaddou is a fortified ksar of mud-brick houses, towers and granaries built in a defensive cluster on a hillside above the Ounila river, on the old caravan route between Marrakesh and the Sahara. Most families now live in the newer village across the water, while a handful still keep homes inside the UNESCO-listed ksar. The climb through the covered passages to the agadir at the summit takes about 20 minutes.",
+      "bestTime": "Late afternoon into sunset, or early morning before the day trippers arrive",
+      "entryFee": "Free to enter; some locals ask 10-20 MAD at the river crossing or the top",
+      "tip": "The river crossing is usually by stepping stones or a man with a donkey who expects a few dirhams, and the official parking is on the far side, so check where your driver or bus is waiting before you walk up."
+    },
+    {
+      "id": "ma-volubilis",
+      "name": "Volubilis",
+      "city": "Meknes",
+      "category": "monument",
+      "latitude": 34.0722,
+      "longitude": -5.5556,
+      "whyVisit": "A full Roman city in the middle of Moroccan farmland is not what most people expect from this trip, and that surprise is exactly why it is worth the detour from Meknes. The mosaics are still lying in the ground where they were laid, with almost nobody guarding them, and the setting below the holy town of Moulay Idriss is superb. Bring water and go early, because there is no shade at all.",
+      "description": "Volubilis was a Roman settlement founded in the 3rd century BC and grew into the administrative centre of the province of Mauretania Tingitana, with a forum, a basilica, a triumphal arch and grand townhouses. It was largely abandoned by the 11th century, when its stone was quarried for the building of Moulay Idriss and Meknes. Excavations from the early 20th century uncovered long stretches of mosaic floors, still visible in the houses of the residential quarter.",
+      "bestTime": "First thing in the morning from March to May or September to November",
+      "entryFee": "70 MAD (~$7)",
+      "tip": "Guides at the gate offer a tour and are useful for spotting the mosaics, but agree the price first, and note that the site has almost no signage in English and no cafe or shade inside."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "The dirham is a closed currency, so you cannot legally take it out of Morocco; change only what you need and keep the receipt in case you want to convert leftovers at the airport.",
+      "Notes come in 20, 50, 100 and 200 dirhams, anything under 20 is usually coins, and small change is gold in the medina where nobody ever seems to have any.",
+      "ATMs from Attijariwafa, BMCE and Banque Populaire are everywhere in cities and generally accept foreign cards, but individual withdrawals are often capped around 2,000-3,000 MAD.",
+      "Change money at a bank or a licensed bureau de change rather than with touts on the street, and expect hotel and riad rates to be the worst on offer."
+    ],
+    "tipping": [
+      "Tipping is not mandatory but is deeply expected; about 10 percent in restaurants and cafes is normal, and more in heavily touristed spots.",
+      "Carry 5 and 10 dirham coins for porters, toilet attendants, parking minders and the guardian who watches your shoes at a mosque entrance.",
+      "In a riad, leaving 20-50 MAD a day for housekeeping is a kind gesture that gets you a lot of goodwill and better breakfasts.",
+      "Guides and drivers expect a real tip rather than loose change: budget 100-200 MAD a day for a private driver and roughly the same for a half-day guide."
+    ],
+    "scams": [
+      "In the Fes medina, unlicensed guides attach themselves to you, walk you to a carpet or leather shop to collect commission, then demand a large fee; agree a route and a price up front with an official guide or just keep saying no and walking.",
+      "Henna artists in Jemaa el-Fnaa grab your hand and start drawing before quoting a price, then demand hundreds of dirhams; only get henna at a fixed-price stall after agreeing the design and the number before any paste touches your skin.",
+      "Near the Fes tanneries and in some medina lanes, a friendly stranger will tell you your hotel or the tannery is closed today and offer to lead you to an open one that is really a shop; check your own map and keep moving.",
+      "Self-appointed parking attendants in blue coats demand 10-20 MAD to watch a car or scooter in an unmarked spot, and carpet and argan oil shops hard-sell with invented Berber family prices, so pay only marked meters and treat any opening price as roughly three times too high."
+    ],
+    "transport": [
+      "Petit taxis are cheap and metered, but drivers often refuse the meter for tourists; insist on it or agree the fare before getting in, and expect around 20-30 MAD for a short hop in Marrakesh.",
+      "Grand taxis are shared long-distance Mercedes that leave only when full, making them the cheapest way between towns, though cramped, so paying for two seats buys you the front.",
+      "Trains run by ONCF are clean, cheap and reliable along the Tangier-Casablanca-Marrakesh spine, and first class costs only a little more for a guaranteed seat.",
+      "CTM and Supratours buses cover the routes trains miss, including the desert roads, and an overnight bus saves a hotel night, but buy tickets a day ahead in high season."
+    ],
+    "etiquette": [
+      "Dress modestly in medinas and villages with shoulders and knees covered, and women may feel more comfortable carrying a light scarf for mosques and rural areas.",
+      "Non-Muslims cannot enter most mosques in Morocco, so admire the Hassan II Mosque in Casablanca, which runs organised tours, rather than testing the door of others.",
+      "Always accept mint tea when it is offered, since refusing can read as rude, and the pouring ritual is a genuine part of the welcome rather than a sales pitch.",
+      "Ask before photographing people, especially women and artisans, and accept that the answer may be a polite no or a request for a small tip; never photograph police or military sites."
+    ],
+    "emergency": {
+      "police": "19",
+      "ambulance": "15",
+      "notes": "Numbers are sometimes listed as 19 for police and 15 for the ambulance, with 177 reaching the gendarmerie outside cities and 190 also working for police in many areas. In Marrakesh and Fes the tourist police handle theft, scams and lost passports and generally speak English, so keep a photocopy of your passport and your embassy contact saved offline."
+    }
+  }
+}

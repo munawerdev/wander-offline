@@ -1,0 +1,173 @@
+{
+  "countryCode": "VN",
+  "name": "Vietnam",
+  "tagline": "Cheap eats, limestone giants, and a coastline built for slow travel",
+  "region": "Southeast Asia",
+  "accentColor": "#DA251D",
+  "currencyCode": "VND",
+  "primaryCity": "Hanoi",
+  "latitude": 21.0278,
+  "longitude": 105.8342,
+  "blurb": "Vietnam is the Southeast Asian country that keeps budget backpackers coming back: a bowl of pho costs about a dollar, dorm beds run $4-8 a night, and a motorbike or an overnight bus can move you 600km for the price of a Western coffee. The range is absurd for the money, from karst islands in the north to imperial tombs in the centre and the Mekong in the south. Local buses and street food mean you never have to book a tour to see any of it. It is also fast, loud and occasionally exhausting, which is exactly why a month here feels like three.",
+  "facts": {
+    "capital": "Hanoi",
+    "region": "Southeast Asia",
+    "subregion": "South-eastern Asia",
+    "population": 100300000,
+    "areaKm2": 331212,
+    "currency": {"code": "VND", "name": "Vietnamese dong", "symbol": "₫"},
+    "languages": ["Vietnamese"],
+    "callingCode": "+84",
+    "drivingSide": "right",
+    "timezones": ["UTC+07:00"],
+    "powerPlug": "Type A/C/D, 220V, 50Hz",
+    "tapWater": "Not safe to drink; bottled or filtered water only",
+    "visaNote": "Most Western passport holders (UK, EU, Australia, Canada, US) enter visa-free for 45 days, while others can apply online for a 90-day single or multiple-entry e-visa. Pakistani passport holders are not on the exemption list and must apply for the e-visa in advance online or through the embassy, allowing at least 3-5 working days and carrying a printed approval letter before boarding.",
+    "bestMonths": "Spring (March-April) and autumn (September-November) are the sweet spots, but Vietnam has two monsoons: the north is wet from May to September and cool and drizzly from December to February, while the south is rainy from May to October and hot and dry from December to April. The centre around Hue and Hoi An floods from September to November, so plan the regions separately rather than trying to do Vietnam in one window.",
+    "dailyBudget": "Roughly 500,000-800,000₫ (~$20-32) a day covers a hostel dorm, street food, local buses and a couple of beers; add about 300,000₫ (~$12) if you want private rooms and paid tours.",
+    "cashVsCard": "Vietnam runs on cash, and markets, xe om drivers, small restaurants and most buses take only đồng. ATMs are everywhere but charge 22,000-66,000₫ per withdrawal and cap you around 2-5 million₫, so take out larger amounts less often; cards work at hotels, mid-range restaurants and supermarkets in the big cities."
+  },
+  "landmarks": [
+    {
+      "id": "vn-hoan-kiem-lake",
+      "name": "Hoan Kiem Lake",
+      "city": "Hanoi",
+      "category": "nature",
+      "latitude": 21.0287,
+      "longitude": 105.8524,
+      "whyVisit": "Come at 5:30am and the whole lake belongs to the city's runners, tai chi grannies and badminton players, which is the best free hour in Hanoi. By evening it turns into a slow promenade of families and teenagers, and the red Huc Bridge is genuinely lovely when it is lit up.",
+      "description": "A 12-hectare freshwater lake in the middle of Hanoi's Old Quarter, wrapped in a 1.7km walking loop. The 18th-century Ngoc Son Temple sits on Jade Island, reached by the scarlet-painted Huc Bridge, and the preserved body of a legendary giant turtle is displayed in a glass case inside.",
+      "bestTime": "Early morning (5:30-7am) for the local crowd, or after dark when the bridge and temple are floodlit.",
+      "entryFee": "Free to walk the loop; 30,000₫ (~$1.20) for Ngoc Son Temple",
+      "tip": "The weekend night market around the lake (Friday to Sunday, from about 6pm) closes the surrounding streets to traffic, so plan on walking rather than calling a Grab."
+    },
+    {
+      "id": "vn-temple-of-literature",
+      "name": "Temple of Literature",
+      "city": "Hanoi",
+      "category": "temple",
+      "latitude": 21.0273,
+      "longitude": 105.8356,
+      "whyVisit": "Vietnam's oldest university is a quiet pocket of Hanoi that the tour buses somehow skip before 9am. The courtyards of stelae and clipped gardens are a proper breather after the Old Quarter's horn-happy chaos, and it rewards a slow walk rather than a photo stop.",
+      "description": "Founded in 1070 under Emperor Ly Thanh Tong and dedicated to Confucius, the Temple of Literature (Van Mieu) became Vietnam's first national university in 1076. Its five walled courtyards hold 82 surviving stone stelae recording doctoral graduates between 1442 and 1779, each mounted on the back of a carved turtle.",
+      "bestTime": "Right at the 8am opening on a weekday; avoid Tet and graduation season in May and June when it fills with photo-taking students.",
+      "entryFee": "70,000₫ (~$2.80)",
+      "tip": "Everyone photographs the stelae, but duck through to the fifth courtyard where a modest altar and a statue of Chu Van An sit; it is usually empty and you can actually hear birds."
+    },
+    {
+      "id": "vn-ha-long-bay",
+      "name": "Ha Long Bay",
+      "city": "Ha Long",
+      "category": "nature",
+      "latitude": 20.9101,
+      "longitude": 107.1839,
+      "whyVisit": "The postcards are not lying, but the trick is to sleep on the water instead of day-tripping from Hanoi. Once the day boats leave at 4pm the bay goes eerily quiet and you get the limestone towers to yourself at sunrise, which is worth the extra money.",
+      "description": "A UNESCO World Heritage site of around 1,600 limestone islands and islets rising from the Gulf of Tonkin across roughly 1,500 square kilometres. The karst towers hide caves, lagoons that are only reachable by kayak at low tide, and floating fishing villages that have lived on the water for generations.",
+      "bestTime": "October to April for cooler, clearer weather; avoid July to September when typhoons can cancel cruises outright.",
+      "entryFee": "Free to enter the bay; overnight cruises run from about 1,200,000₫ (~$48) for a budget boat to 5,000,000₫ or more for luxury",
+      "tip": "Book a boat that anchors in Lan Ha Bay rather than central Ha Long; it is the same scenery with a fraction of the boats, and most two-day, one-night itineraries quietly include it if you ask."
+    },
+    {
+      "id": "vn-hue-imperial-city",
+      "name": "Hue Imperial City",
+      "city": "Hue",
+      "category": "castle",
+      "latitude": 16.4698,
+      "longitude": 107.5796,
+      "whyVisit": "Most travellers rush Hue as a one-night stop between Hoi An and Hanoi, which is a mistake, because the Citadel needs a slow half-day and the war-scarred flag tower is more moving than any restored palace. Get there early, since by 10am the tour groups arrive in waves.",
+      "description": "Built from 1804 under Emperor Gia Long, the Imperial City (Dai Noi) is a fortress within a fortress, with a 10km moat, three concentric walls and the Forbidden Purple City at its heart. Much was destroyed during the 1968 Tet Offensive, but the Ngo Mon Gate, Thai Hoa Palace and restored To Mieu temples still show the scale of the Nguyen dynasty's ambition.",
+      "bestTime": "November to April in the dry season, with February and March cool and green; go at the 7am opening to beat both heat and crowds.",
+      "entryFee": "200,000₫ (~$8) for the Citadel; combo tickets with the royal tombs cost about 530,000₫",
+      "tip": "Buy the combo ticket at the Citadel entrance rather than paying separately, since it covers the Minh Mang and Khai Dinh tombs plus a couple of museums, and hire a motorbike driver for the day (around 300,000₫) because the tombs sit 30-45 minutes out of town."
+    },
+    {
+      "id": "vn-hoi-an-ancient-town",
+      "name": "Hoi An Ancient Town",
+      "city": "Hoi An",
+      "category": "neighbourhood",
+      "latitude": 15.8770,
+      "longitude": 108.3272,
+      "whyVisit": "It really is as pretty as everyone says, and the way to survive the crowds is to move at sunrise and again after 8pm when the buses have gone and the lanterns come on. Rent a bicycle and get lost in the lanes east of the market, because that is where Hoi An stops being a theme park.",
+      "description": "A 15th to 18th century trading port where Chinese, Japanese and Vietnamese merchants built a dense grid of wooden shophouses, assembly halls and covered bridges that survived the wars largely intact. The Japanese Covered Bridge dates to the 1590s, and more than 1,100 timber buildings are protected under its UNESCO World Heritage listing.",
+      "bestTime": "February to April for dry, mild weather; the full-moon lantern festival on the 14th day of each lunar month is spectacular but extremely busy.",
+      "entryFee": "120,000₫ (~$4.80) for a ticket covering five of the town's heritage buildings",
+      "tip": "Enforcement is patchy and you can slip into the old town from the east side for free, but buy the ticket anyway since it funds the restoration, and spend the five entries on the quieter assembly halls rather than queuing for the covered bridge."
+    },
+    {
+      "id": "vn-cu-chi-tunnels",
+      "name": "Cu Chi Tunnels",
+      "city": "Ho Chi Minh City",
+      "category": "monument",
+      "latitude": 11.1428,
+      "longitude": 106.4622,
+      "whyVisit": "This is two hours of claustrophobia, heat and real discomfort, and it is the most affecting thing to do near Saigon. Crawl twenty metres through an enlarged tunnel and you will understand the war in a way no museum display manages, so skip it if you are badly claustrophobic and go early if you are not.",
+      "description": "A 200km network of hand-dug tunnels begun by the Viet Minh in the late 1940s and expanded by the Viet Cong in the 1960s, with living quarters, kitchens, hospitals, weapons workshops and hidden trapdoor entrances. The Ben Duoc and Ben Dinh sections near Cu Chi town are open to visitors, with firing ranges, booby-trap displays and camouflaged ventilation holes still visible in the leaf litter.",
+      "bestTime": "A weekday morning before 9am, when the light inside the tunnels is better and the site is far less crowded than at weekends.",
+      "entryFee": "About 110,000₫ (~$4.40) at Ben Duoc, plus 35,000₫ if you want to fire an AK-47",
+      "tip": "Wear old trainers you are happy to throw away because the tunnels are red dust and mud, and choose the Ben Duoc site over Ben Dinh if you want the less commercialised version, even though it is a longer drive."
+    },
+    {
+      "id": "vn-war-remnants-museum",
+      "name": "War Remnants Museum",
+      "city": "Ho Chi Minh City",
+      "category": "museum",
+      "latitude": 10.7797,
+      "longitude": 106.6924,
+      "whyVisit": "It is not a fun morning, but it is the most important three hours you will spend in Vietnam. The Agent Orange room stays with you for days, and the museum is unafraid to put Vietnamese civilians at the centre of the story rather than treating them as a footnote.",
+      "description": "Opened in 1975 as the Exhibition House for US and Puppet Crimes and renamed in 1993, the museum holds captured US aircraft, tanks and artillery in its courtyard plus three floors of photography from the American War. The Requiem and Agent Orange exhibits are the most powerful, and the tiger cages from Con Dao prison are reconstructed on site.",
+      "bestTime": "Weekday mornings; allow two to three hours and finish before the midday heat builds.",
+      "entryFee": "40,000₫ (~$1.60)",
+      "tip": "Start on the top floor and work downwards, because most tour groups do the opposite and you will get the heaviest exhibits largely to yourself; take tissues, since the second floor is a gut-punch."
+    },
+    {
+      "id": "vn-trang-an",
+      "name": "Trang An Landscape Complex",
+      "city": "Ninh Binh",
+      "category": "nature",
+      "latitude": 20.2506,
+      "longitude": 105.8957,
+      "whyVisit": "This is Ha Long Bay without the sea and without the crowds, where you sit in a tiny rowboat while a local woman rows you through cave tunnels with her feet. Pick route three and you will be alone for long stretches, which is not something you can say about most Vietnamese set-pieces.",
+      "description": "A UNESCO mixed World Heritage site of flooded karst valleys, 48 water caves and around 500 plant species, best explored on a two to three hour sampan ride from the Trang An wharf. The same landscape served as the backdrop for Kong: Skull Island, and the surrounding Hoa Lu district was Vietnam's capital in the 10th century.",
+      "bestTime": "February to May, after the rice is planted and the water is high; skip October and November in flood season when some caves close.",
+      "entryFee": "250,000₫ (~$10) for the boat, plus 20,000₫ to park a motorbike",
+      "tip": "You are expected to tip your rower, and 50,000-100,000₫ is normal because they earn very little; route three is the quietest while route one has the best caves, so choose based on whether you want solitude or scenery."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "The đồng has no coins and notes run from 1,000₫ to 500,000₫, so keep small notes for markets and motorbike taxis and double-check that a 20,000₫ note is not being passed off as 200,000₫.",
+      "Prices are usually quoted in thousands, so when someone says twenty they mean 20,000₫, and it is worth confirming the full number out loud before agreeing.",
+      "Gold shops and jewellery stores around Hanoi's Old Quarter and Ho Chi Minh City's Ben Thanh area often beat bank ATM rates for cash exchange.",
+      "Withdraw 3-5 million₫ at a time to limit per-transaction ATM fees, and prefer bank-branded machines over the standalone ATMs on tourist strips that charge the highest rates."
+    ],
+    "tipping": [
+      "Tipping is not expected but is genuinely appreciated, and 20,000-50,000₫ for a meal or simply rounding up the bill is plenty.",
+      "For a full-day guided tour, 100,000-200,000₫ per person for the guide is a normal thank-you on top of the tour price.",
+      "Massage and spa staff usually expect 50,000-100,000₫, especially in Hoi An and Hanoi's Old Quarter where the industry is built on foreign visitors.",
+      "Hotel bellhops and housekeeping get 20,000-50,000₫, and it is better left in the room than handed over awkwardly in the corridor."
+    ],
+    "scams": [
+      "Taxi meter scams: in Hanoi and Ho Chi Minh City stick to Mai Linh (green) or Vinasun (white) and insist the meter is reset to zero before you move, because the broken-meter claim followed by a 500,000₫ airport fare is the classic run-around and Grab avoids it entirely.",
+      "Xe om motorbike taxi drivers quote a price per person and then claim at your destination that it was per person per kilometre, so agree the total in writing or show it on your phone screen before you get on.",
+      "Copycat tour operators clone reputable names with near-identical signage, including lookalike Sinh Tourist and fake Ha Long Bay companies, so check the address against the official website and be suspicious of any office that opened last month.",
+      "Shoe-shine, coconut and free-parking touts in backpacker zones hand you a shoe or a coconut and then demand 200,000₫ or more, and some motorbike rental shops hold your passport as a deposit before inventing damage, so leave a cash deposit or a photocopy and never the original."
+    ],
+    "transport": [
+      "Grab works in every major city and is the easiest way to avoid taxi haggling, with the fixed fare shown before you book and no meter involved.",
+      "Sleeper buses and the reunification train are cheap but slow, and while a Hanoi to Ho Chi Minh City train takes 30-35 hours, an overnight bus saves you a night of accommodation.",
+      "Renting a motorbike for 100,000-200,000₫ a day is the classic way to explore Hoi An, Hue and Ha Giang, but you legally need a 1968 IDP plus your home licence and most travel insurance is void without one.",
+      "Traffic in Hanoi and Ho Chi Minh City does not stop for pedestrians, so cross at a slow, steady pace and let the motorbikes flow around you rather than darting between gaps."
+    ],
+    "etiquette": [
+      "Dress modestly at temples and pagodas by covering shoulders and knees, and remove your shoes before stepping into the inner hall.",
+      "Do not touch anyone's head or point your feet at people or Buddha images, since both are considered deeply disrespectful.",
+      "Use two hands when giving or receiving money, business cards or gifts, and a slight bow goes a long way with older Vietnamese.",
+      "Keep your cool in public, because losing your temper or raising your voice causes a loss of face and usually makes the situation harder to resolve."
+    ],
+    "emergency": {
+      "police": "113",
+      "ambulance": "115",
+      "notes": "Fire is 114 and the Hanoi tourist police hotline is +84 24 3942 0746. For anything serious your embassy in Hanoi or the consulate in Ho Chi Minh City can help, and travel insurance with medical evacuation cover is worth far more here than in Europe."
+    }
+  }
+}

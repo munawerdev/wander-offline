@@ -145,7 +145,6 @@ class _AppTextFormFieldState extends State<AppTextFormField> {
       enabled: widget.enabled,
       readOnly: widget.readOnly,
       obscureText: _obscureText,
-      obscuringCharacter: '•',
       textAlign: widget.textAlign,
       textCapitalization: widget.textCapitalization,
       textInputAction: widget.textInputAction ?? _getTextInputAction(),

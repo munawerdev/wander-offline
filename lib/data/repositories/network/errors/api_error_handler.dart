@@ -449,7 +449,7 @@ class ApiErrorHandler {
     return errors.toString();
   }
 
-  /// Normalizes additional data to Map<String, dynamic> format
+  /// Normalizes additional data to `Map<String, dynamic>` format
   Map<String, dynamic>? _normalizeAdditionalData(dynamic data) {
     if (data == null) return null;
 

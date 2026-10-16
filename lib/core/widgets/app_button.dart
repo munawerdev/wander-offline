@@ -222,11 +222,16 @@ class AppButton extends StatelessWidget {
         icon!,
         if (text != null) ...[
           SizedBox(width: 8.w),
-          Text(
-            text!,
-            overflow: TextOverflow.ellipsis,
-            maxLines: 1,
-            style: textStyle,
+          // Flexible is what makes the ellipsis below actually engage: a Row
+          // lays non-flex children out at their intrinsic width, so without it
+          // a long label overflows the button instead of being truncated.
+          Flexible(
+            child: Text(
+              text!,
+              overflow: TextOverflow.ellipsis,
+              maxLines: 1,
+              style: textStyle,
+            ),
           ),
         ],
       ],

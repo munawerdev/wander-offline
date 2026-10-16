@@ -17,7 +17,19 @@ class _SplashState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    cubit.checkUser();
+    cubit.start();
+  }
+
+  @override
+  void didUpdateWidget(covariant SplashPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    // Without this, a replaced cubit would leave the app stranded on the splash
+    // screen, because start() - which performs the navigation - would never run
+    // again.
+    if (!identical(oldWidget.cubit, widget.cubit)) {
+      oldWidget.cubit.close();
+      widget.cubit.start();
+    }
   }
 
   @override

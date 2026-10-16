@@ -398,7 +398,7 @@ class AppCachedNetworkImage extends StatelessWidget {
       decoration: BoxDecoration(
         color:
             config.initialsBackgroundColor ??
-            theme.colorScheme.primary.withOpacity(0.1),
+            theme.colorScheme.primary.withValues(alpha: 0.1),
         borderRadius: config.borderRadius,
       ),
       child: Center(
@@ -459,8 +459,9 @@ class AppCachedNetworkImage extends StatelessWidget {
   }
 
   String _getUserInitials(String? name) {
-    if (name == null || name.trim().isEmpty)
+    if (name == null || name.trim().isEmpty) {
       return config?.defaultInitial ?? '?';
+    }
 
     final trimmedName = name.trim();
     final words = trimmedName.split(RegExp(r'\s+'));

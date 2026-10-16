@@ -1,0 +1,172 @@
+{
+  "countryCode": "TH",
+  "name": "Thailand",
+  "tagline": "Street food, temples and islands on a shoestring",
+  "region": "Southeast Asia",
+  "accentColor": "#A51931",
+  "currencyCode": "THB",
+  "primaryCity": "Bangkok",
+  "latitude": 13.756300,
+  "longitude": 100.5018,
+  "blurb": "Thailand is the easiest place in Southeast Asia to travel cheaply and well: guesthouse beds for ฿300, pad thai for ฿60 and buses that link jungle temples to limestone islands. The infrastructure is forgiving enough for a first-timer, but the north and the deep south still feel wild if you push past the banana-pancake trail. Come for a month, spend less than you would on rent at home, and leave with a favourite region you did not expect.",
+  "facts": {
+    "capital": "Bangkok",
+    "region": "Southeast Asia",
+    "subregion": "South-eastern Asia",
+    "population": 71700000,
+    "areaKm2": 513120,
+    "currency": {"code": "THB", "name": "Thai baht", "symbol": "฿"},
+    "languages": ["Thai"],
+    "callingCode": "+66",
+    "drivingSide": "left",
+    "timezones": ["UTC+07:00"],
+    "powerPlug": "Type A/B/C, 220V, 50Hz",
+    "tapWater": "Not safe to drink; stick to bottled or filtered water",
+    "visaNote": "Most Western passport holders (US, UK, EU, Australia, Canada) get a 60-day visa exemption on arrival, extendable by 30 days at a Thai immigration office for ฿1,900. Pakistani passport holders need a visa in advance: apply for a single-entry tourist visa (60 days) through the Thai e-Visa portal or the Royal Thai Embassy in Islamabad, with proof of funds, confirmed onward travel and accommodation.",
+    "bestMonths": "November to February is the cool, dry window nationwide and the safest bet for a first trip. The Andaman coast (Phuket, Krabi, Koh Phi Phi) is wettest from May to October, while the Gulf coast (Koh Samui, Koh Tao) catches its rain later, roughly October to December, so you can often dodge the monsoon by switching coasts rather than waiting.",
+    "dailyBudget": "฿900 to ฿1,400 (~$25 to $40) per day for dorm beds or fan rooms, street food, local buses and one paid attraction. Flashpacker comfort with private air-con rooms and the occasional domestic flight runs ฿2,000 to ฿3,000 (~$56 to $85).",
+    "cashVsCard": "Thailand still runs on cash: markets, buses, songthaews, guesthouses and street stalls take baht only, and foreign cards draw a flat ฿220 ATM fee on top of your bank's cut, so withdraw ฿10,000+ at a time. Cards work fine in malls, chain hotels, supermarkets and mid-range restaurants, and QR payment via PromptPay is everywhere but needs a Thai bank account."
+  },
+  "landmarks": [
+    {
+      "id": "th-wat-phra-kaew",
+      "name": "Wat Phra Kaew (Temple of the Emerald Buddha)",
+      "city": "Bangkok",
+      "category": "temple",
+      "latitude": 13.7515,
+      "longitude": 100.4927,
+      "whyVisit": "Everyone tells you to skip it because of the crowds and the price, and everyone is wrong the first time. The murals around the inner cloister are a 178-section comic strip of the Ramakien, and almost nobody walks them properly because they sprint straight to the Buddha. Give it two hours, go at 8:30am opening, and the heat and tour groups have not yet arrived.",
+      "description": "Built from 1782 inside the grounds of the Grand Palace, this is the most sacred temple in Thailand and home to the 66cm Emerald Buddha, actually carved from jade or jasper, which the king himself changes between three seasonal golden outfits. The complex holds over 100 buildings including the golden Phra Si Rattana Chedi and a scale model of Angkor Wat commissioned by Rama IV.",
+      "bestTime": "Arrive at 8:30am when the gates open; by 10am the coach groups make the inner courtyard unpleasant, and afternoon heat on the exposed terrace is brutal.",
+      "entryFee": "฿500 (~$14) combined with the Grand Palace",
+      "tip": "The ฿500 ticket includes entry to the Queen Sirikit Museum of Textiles and Vimanmek area exhibits, so keep the ticket. Also, the free shuttle that tuk-tuk drivers claim is 'waiting for you' does not exist."
+    },
+    {
+      "id": "th-wat-arun",
+      "name": "Wat Arun (Temple of Dawn)",
+      "city": "Bangkok",
+      "category": "temple",
+      "latitude": 13.7437,
+      "longitude": 100.4889,
+      "whyVisit": "The prang looks beautiful from the river and even better from the far bank at sunset with a ฿15 ferry crossing, which is the cheapest good evening in Bangkok. Most people only see it from a dinner cruise; cross over instead, climb the steep central stair, and look back at the city skyline glowing behind you.",
+      "description": "An 82m Khmer-style prang on the west bank of the Chao Phraya, decorated with thousands of pieces of broken Chinese porcelain that were ballast from trading ships. It was built in the 17th century and extensively restored under Rama II and Rama III in the 1800s; the steep staircase up the central prang was partially closed in 2015 for erosion but a lower level remains climbable.",
+      "bestTime": "Late afternoon, around 5pm to 6:30pm, so you can watch the sun drop behind the temple from the opposite bank, then cross for the floodlit view.",
+      "entryFee": "฿200 (~$5.60)",
+      "tip": "Take the ฿5 cross-river ferry from Tha Tien pier, not the ฿100 tourist boat. The pier is a two-minute walk south of Wat Pho."
+    },
+    {
+      "id": "th-wat-pho",
+      "name": "Wat Pho (Temple of the Reclining Buddha)",
+      "city": "Bangkok",
+      "category": "temple",
+      "latitude": 13.7465,
+      "longitude": 100.4927,
+      "whyVisit": "The 46m Reclining Buddha is genuinely impressive, but the reason to linger is that Wat Pho doubles as Thailand's oldest massage school, and the on-site massage pavilion charges locals' prices for a proper hour-long rub. Do the temple, then lie down for ฿480 and let a trained therapist fold you into shapes you did not know you had.",
+      "description": "Founded in the 16th century and rebuilt by Rama I in 1788, Wat Pho is one of Bangkok's oldest and largest temple complexes at around 8 hectares. Its Reclining Buddha is 46m long and 15m high, plated in gold leaf with mother-of-pearl inlaid soles showing 108 auspicious laksana signs, and the grounds contain over 1,000 Buddha images plus 91 chedis.",
+      "bestTime": "Early morning or after 4pm when the tour buses thin; the massage school runs until 6pm and the temple closes at 6:30pm.",
+      "entryFee": "฿300 (~$8.40)",
+      "tip": "The ฿300 ticket gives you a free small bottle of drinking water at the entrance, and the massage pavilion is inside the complex on the north side rather than out on the street where touts overcharge."
+    },
+    {
+      "id": "th-wat-chedi-luang",
+      "name": "Wat Chedi Luang",
+      "city": "Chiang Mai",
+      "category": "temple",
+      "latitude": 18.7872,
+      "longitude": 98.9864,
+      "whyVisit": "The broken top of the 82m chedi is the most photogenic ruin in northern Thailand, and it is shattered on purpose: an earthquake in 1545 took the upper 30m off, and nobody rebuilt it. There is a monk chat corner most afternoons where you can actually sit down and ask questions instead of just taking photos, which beats any organised temple tour.",
+      "description": "Started in the 14th century under King Saen Muang Ma and finished in the mid-15th century, this was once home to the Emerald Buddha before it was moved to Vientiane and later Bangkok. The brick-and-stucco chedi is flanked by five elephant statues at the base, several reconstructed, and the compound also holds the city pillar shrine, Inthakhin, which women were traditionally barred from entering.",
+      "bestTime": "7am to 9am for soft light and no crowds, or around 5:30pm when the monks chant; the lantern-lit evening during Yi Peng in November is special.",
+      "entryFee": "฿100 (~$2.80)",
+      "tip": "Women are not allowed inside the small city pillar shrine building at the back, and the rule is enforced quietly but firmly, so look for the sign before stepping up."
+    },
+    {
+      "id": "th-wat-rong-khun",
+      "name": "Wat Rong Khun (White Temple)",
+      "city": "Chiang Rai",
+      "category": "temple",
+      "latitude": 19.8242,
+      "longitude": 99.7630,
+      "whyVisit": "This is not an old temple, it is a living art project by painter Chalermchai Kositpipat, and the bridge into the main hall is deliberately designed as a walk over a pit of grasping hands representing desire. It is kitsch, it is sincere, and there is nothing else in Thailand like it. Go early because by 10am the tour buses from Chiang Rai town arrive in waves.",
+      "description": "Construction began in 1997 and is planned to run until 2070; the ubosot is covered in white stucco and embedded mirrored glass chips so the whole building glitters in sunlight. The interior murals famously mix traditional Buddhist iconography with pop-culture figures, and a separate gold-coloured building on site houses a Ganesha and is deliberately, ironically, the one completed structure.",
+      "bestTime": "Right at 8am opening on a weekday; the site is 13km south of Chiang Rai and the light on the white stucco is harsh by midday.",
+      "entryFee": "฿100 (~$2.80)",
+      "tip": "The entry queue is for the bridge and main hall only, so buy a ticket, then loop around to the gold toilet building and the art gallery first while the crowd bottlenecks at the bridge."
+    },
+    {
+      "id": "th-wat-mahathat-ayutthaya",
+      "name": "Wat Mahathat, Ayutthaya",
+      "city": "Ayutthaya",
+      "category": "monument",
+      "latitude": 14.3570,
+      "longitude": 100.5675,
+      "whyVisit": "The Buddha head gripped in bodhi tree roots is the photo every traveller in Thailand wants, and it is smaller and stranger in person than in the pictures. The best way to see the surrounding ruins is to rent a bicycle for ฿50 and ride between them yourself, because the site is spread out and the tuk-tuk drivers quote ฿1,500 for a three-hour tour of the same thing. Pair it with Wat Chaiwatthanaram across the river at sunset, which is the one you will actually remember.",
+      "description": "Founded in 1374 by King Borommarachathirat I, Wat Mahathat was the royal temple of Ayutthaya and housed a relic of the Buddha, making it the spiritual heart of a capital that was one of the largest cities in the world before Burmese forces sacked it in 1767. The central prang collapsed long ago, leaving a field of brick foundations, headless Buddha images and rows of ruined columns. The famous sandstone Buddha head at the eastern side was abandoned and gradually enclosed by the roots of a bodhi tree over the centuries.",
+      "bestTime": "November to February, and specifically late afternoon from 4pm to 6pm when the brick turns orange and the heat drops; arrive at opening at 8am if you want the Buddha head without a queue of people waiting to crouch beside it.",
+      "entryFee": "฿50 (~$1.40), or ฿220 for a combined ticket covering six sites",
+      "tip": "Do not stand over the Buddha head to pose for a photo: it is a serious offence to point your feet at a Buddha image and guards do intervene. Kneel or crouch beside it and shoot from below, and keep your hat off."
+    },
+    {
+      "id": "th-sukhothai-historical-park",
+      "name": "Sukhothai Historical Park",
+      "city": "Sukhothai",
+      "category": "monument",
+      "latitude": 17.0200,
+      "longitude": 99.7037,
+      "whyVisit": "This is what Ayutthaya would be if it were peaceful, green and mostly empty of tour buses, and the central zone is small enough to walk in a morning. The seated Buddha at Wat Si Chum, seen through a narrow slit in a brick mondop, is the single most striking image in Thai religious architecture, and you will likely have it nearly to yourself.",
+      "description": "Sukhothai was the first major Siamese kingdom, flourishing from 1238 to around 1438, and its UNESCO-listed park preserves the walled city with moats, tanks and dozens of temple ruins. Highlights include Wat Mahathat with its lotus-bud chedi, Wat Sa Si on an island in a pond, and Wat Si Chum, whose 15m brick Buddha sits in a square mondop with a narrow opening and a ceiling passage of carved Jataka slabs.",
+      "bestTime": "November to January, ideally 6:30am to 10am; the park is at its best in the cool morning mist and the dawn light at Wat Sa Si with the reflection is worth the early alarm.",
+      "entryFee": "฿100 (~$2.80) per zone, or ฿350 for all zones plus the museum",
+      "tip": "The central zone is walkable, but rent a bicycle for ฿30 to reach Wat Si Chum in the northern zone; there is also a free tram or a ฿60 electric bus if the heat is too much."
+    },
+    {
+      "id": "th-railay-beach",
+      "name": "Railay Beach (Phra Nang Peninsula)",
+      "city": "Railay",
+      "category": "beach",
+      "latitude": 8.0107,
+      "longitude": 98.8397,
+      "whyVisit": "Railay is cut off from the mainland by limestone cliffs, so there are no roads and no cars, only a few footpaths between the east and west beaches, and that alone makes it feel different from every other Thai beach town. Stay two nights rather than day-tripping, climb or scramble to the Phra Nang Beach viewpoint at the south end, and watch the longtail boats come in at sunset from the west side.",
+      "description": "Railay is a small peninsula near Ao Nang in Krabi province, reachable only by longtail boat, split into Railay West, Railay East, Tonsai and Phra Nang Beach. The towering karst cliffs make it one of the world's top sport-climbing destinations with over 700 bolted routes, and Phra Nang Cave contains a shrine of carved lingams that local fishermen still leave offerings at.",
+      "bestTime": "November to March for calm seas and dry climbing rock; the bay is choppier and the boats less reliable from May to October.",
+      "entryFee": "Free; longtail boat from Ao Nang or Krabi Town is ฿100 to ฿150 each way",
+      "tip": "Longtails stop running around 6pm and the last boat back leaves Ao Nang earlier than you think, so if you are day-tripping, confirm the return time and boat number with your driver. Also, Railay East is mudflat at low tide, which is why it is cheaper than Railay West."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "The baht (฿) is the only accepted currency; US dollars and euros are taken at terrible rates by street vendors, so change money at a bank or a SuperRich branch instead.",
+      "Foreign cards pay a flat ฿220 ATM fee per withdrawal, so take out ฿10,000 or more at a time and use an ATM attached to a bank branch during open hours in case the machine eats your card.",
+      "SuperRich and Value Plus in Bangkok consistently beat airport and hotel exchange rates by 3 to 5 percent, and you need your passport for any exchange over a small amount.",
+      "Keep small notes and coins: ฿20 and ฿100 notes are what songthaews, market stalls and 7-Eleven actually want, and a ฿1,000 note for a ฿40 noodle soup will get you a sigh."
+    ],
+    "tipping": [
+      "Tipping is not expected and Thais generally do not tip each other, but rounding up or leaving ฿20 to ฿50 at a restaurant with table service is a friendly gesture.",
+      "Massage therapists at reputable places like Wat Pho's school are poorly paid and a ฿50 to ฿100 tip for an hour is genuinely appreciated.",
+      "Never tip with coins alone at a restaurant, as small change can read as an insult; use a note or round the bill up instead, and leave the tip in cash rather than on a card slip."
+    ],
+    "scams": [
+      "The Grand Palace 'closed today' scam: a tuk-tuk driver near the palace tells you it is shut for a Buddhist holiday and offers a ฿20 tour that detours through gem and tailor shops where you are pressured to buy. The palace is open daily 8:30am to 3:30pm and the only legitimate closure notices are posted at the gate.",
+      "Jet-ski damage claims in Pattaya and Phuket: an operator rents you a jet ski, then claims you scratched it and demands tens of thousands of baht, sometimes with a fake police officer backing him up. Photograph and video the jet ski with the operator present before you ride, or just rent from a hotel-affiliated operator.",
+      "Motorbike rental shops that ask to hold your passport as a deposit: they then invent damage and refuse to return it until you pay. Never hand over your passport, offer a cash deposit instead, and check the bike for existing scratches with photos before riding off.",
+      "Bar and 'ping-pong show' touts on Sukhumvit and Walking Street hand you a laminated menu with ฿100 drinks, then present a bill for ฿5,000 when you leave, backed by bouncers. Ask for the price list in writing before ordering, and if a tout approaches you on the street, walk away. Related: binocular and gem shop touts who promise a 'government sale' that is neither government nor a sale."
+    ],
+    "transport": [
+      "Book overnight trains and long-distance buses on the official State Railway of Thailand or Transport Co sites rather than through a travel agent, who adds a commission and sometimes books you on a slower VIP bus than advertised.",
+      "In Bangkok use the BTS Skytrain and MRT for anything along their lines, meter taxis otherwise; insist on the meter, and if the driver refuses, get out and take the next one. Never accept a flat ฿500 fare quoted at the airport.",
+      "Songthaews in Chiang Mai cost a flat ฿30 to ฿40 within the old city and ฿60 to ฿100 to outlying areas, and you pay when you get out. Say your destination before boarding, or the driver will treat you as a private charter.",
+      "Domestic flights on AirAsia, Nok Air and Thai Vietjet are often cheaper than a 12-hour bus, especially if you book a few weeks out and travel with only a carry-on bag; the ฿100 to ฿400 checked-bag fee is where they make their money."
+    ],
+    "etiquette": [
+      "Temple dress code: cover shoulders and knees, which means no tank tops, no singlets and no short shorts for anyone of any gender, and remove your shoes before entering any ordination hall or private home. Many temples loan or sell a wrap for ฿20 to ฿50 at the entrance if you are caught out.",
+      "Lese-majeste is no joke: Section 112 of the Criminal Code makes insulting or defaming the monarchy punishable by up to 15 years in prison, and this has been applied to foreigners and to social media posts, so do not discuss the royal family critically and do not deface images of the king.",
+      "Never touch anyone's head or point your feet at people or Buddha images, and do not step over someone sitting on the floor; both the head and the feet carry strong symbolic weight in Thai culture.",
+      "Do not touch a monk if you are a woman, and if you are a woman handing something to a monk, place it on a cloth or a table rather than passing it directly, and sit so your feet are tucked behind you in temple halls."
+    ],
+    "emergency": {
+      "police": "191",
+      "ambulance": "1669",
+      "notes": "Tourist Police is 1155 and has English-speaking officers, which is the number to call for theft, scams or disputes; the main emergency line 191 is Thai-language and often slow. For medical emergencies, private hospitals in Bangkok and Chiang Mai are fast but expensive, so travel insurance with medical evacuation cover is worth the cost."
+    }
+  }
+}

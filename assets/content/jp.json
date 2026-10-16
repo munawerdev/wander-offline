@@ -1,0 +1,172 @@
+{
+  "countryCode": "JP",
+  "name": "Japan",
+  "tagline": "Bullet trains, ¥300 ramen, and 1,000-year-old temples",
+  "region": "East Asia",
+  "accentColor": "#BC002D",
+  "currencyCode": "JPY",
+  "primaryCity": "Tokyo",
+  "latitude": 35.6762,
+  "longitude": 139.6503,
+  "blurb": "Japan is the rare country where the cheap version of the trip is often the better one: ¥600 standing ramen, free temples, overnight highway buses and capsule beds, all stitched together by a rail network that makes 500-kilometre day trips feel normal. You can see a neon crossing, a 1,200-year-old temple and a shrine floating in the sea inside one week, and it is safe enough that a first-time solo backpacker can genuinely wing it. Bring cash, learn ten words of Japanese, and you will probably spend less than you would at home.",
+  "facts": {
+    "capital": "Tokyo",
+    "region": "East Asia",
+    "subregion": "Eastern Asia",
+    "population": 123300000,
+    "areaKm2": 377975,
+    "currency": {"code": "JPY", "name": "Japanese yen", "symbol": "¥"},
+    "languages": ["Japanese"],
+    "callingCode": "+81",
+    "drivingSide": "left",
+    "timezones": ["UTC+09:00"],
+    "powerPlug": "Type A/B, 100V, 50/60Hz",
+    "tapWater": "Safe to drink nationwide",
+    "visaNote": "Visa-free for most Western passports (90 days). A Pakistani passport holder needs a visa issued in advance through a Japanese embassy or consulate, and should expect to submit a day-by-day itinerary, accommodation bookings and proof of funds.",
+    "bestMonths": "Late March to May for cherry blossom and mild weather, or October to November for autumn colour. Both dodge the humid, typhoon-prone summer and the cold, dark northern winter.",
+    "dailyBudget": "¥8,000-13,000 (~$53-87) per day backpacking: hostel dorms, konbini and standing-noodle meals, and local trains. A JR Pass or regional rail pass is a large one-off cost on top.",
+    "cashVsCard": "Much more cash-based than other rich countries. Cards work at hotels, chains and convenience stores, but many small restaurants, temples, markets and rural shops take cash only. Carry ¥10,000-20,000 and top up at 7-Eleven ATMs, which reliably accept foreign cards."
+  },
+  "landmarks": [
+    {
+      "id": "jp-senso-ji",
+      "name": "Sensō-ji",
+      "city": "Tokyo",
+      "category": "temple",
+      "latitude": 35.7148,
+      "longitude": 139.7967,
+      "whyVisit": "Turn up at 6:30am and you get the whole approach to yourself: lanterns still lit, incense barely smoking, and none of the tour groups that choke Nakamise-dōri by ten o'clock. It costs nothing, it is a five-minute walk from Asakusa Station, and it is the cheapest possible introduction to how old this city actually is. Come back after dark once for the lanterns, then leave before the crowds arrive.",
+      "description": "Tokyo's oldest temple, founded in 628 and rebuilt after the 1945 firebombing, so the main hall, the five-storey pagoda and the Kaminarimon gate are all 20th-century concrete standing on a 1,400-year-old site. The Nakamise-dōri shopping street runs about 250 metres from the gate to the temple, lined with roughly 90 stalls.",
+      "bestTime": "Before 7am, or after 8pm when the lanterns come on",
+      "entryFee": "Free",
+      "tip": "Prices on Nakamise-dōri drop the closer you get to the temple gate, so walk the whole street first and buy on the way back; the identical souvenir is often a third cheaper 100 metres further along."
+    },
+    {
+      "id": "jp-meiji-jingu",
+      "name": "Meiji Jingu",
+      "city": "Tokyo",
+      "category": "shrine",
+      "latitude": 35.6764,
+      "longitude": 139.6993,
+      "whyVisit": "Most people photograph the giant torii, walk to the shrine and leave, which is a mistake. Push on into the inner grounds and you are inside 70 hectares of hand-planted forest that is measurably cooler and quieter than the Shibuya crossing ten minutes away. It is free, it is the best jet-lag cure in Tokyo, and after twenty minutes you will forget you are in a city of 14 million people.",
+      "description": "A Shintō shrine dedicated to Emperor Meiji and Empress Shōken, completed in 1920 and rebuilt in 1958 after wartime destruction. The surrounding forest was designed by Seiroku Honda and planted by around 100,000 volunteers using species donated from all over Japan; the enclosed inner garden charges a small seasonal fee, peaking for the June iris bloom.",
+      "bestTime": "Weekday mornings, or early June for the iris garden",
+      "entryFee": "Free (inner garden ¥500, ~$3.30)",
+      "tip": "Walk on the side of the gravel approach, not down the middle: the centre of the path is traditionally reserved for the deity, and the shrine staff will quietly steer you off it. Photography is also banned inside the main courtyard."
+    },
+    {
+      "id": "jp-tsukiji-outer-market",
+      "name": "Tsukiji Outer Market",
+      "city": "Tokyo",
+      "category": "market",
+      "latitude": 35.6654,
+      "longitude": 139.7707,
+      "whyVisit": "The famous tuna auctions moved to Toyosu in 2018 but the outer market refused to die, and it is still the best cheap breakfast in Tokyo. You can eat a ¥300 tamagoyaki skewer, a ¥500 grilled scallop and a ¥1,000 chirashi bowl before eight in the morning, standing at a counter next to fishmongers who have been there forty years. Go hungry, go early, and do not sit down anywhere.",
+      "description": "A dense grid of roughly 400 stalls and shops beside the old Tsukiji wholesale market site, selling seafood, kitchen knives, tamagoyaki, nori and dried goods. Most stalls open around 5am and shut by 2pm, and many close on Sundays plus selected Wednesdays.",
+      "bestTime": "7-9am on a weekday, before the stalls sell out",
+      "entryFee": "Free to walk",
+      "tip": "Almost everything is cash-only and there are practically no public bins, so bring small notes and a plastic bag for your rubbish, because you will be carrying it until you find a convenience store."
+    },
+    {
+      "id": "jp-fushimi-inari-taisha",
+      "name": "Fushimi Inari Taisha",
+      "city": "Kyoto",
+      "category": "shrine",
+      "latitude": 34.9671,
+      "longitude": 135.7727,
+      "whyVisit": "Do not come at noon. Arrive at 6am or 7pm and you can walk the senbon torii completely alone, when the vermilion tunnels are lit only by stone lanterns and the sole sound is your own footsteps on gravel. It is free, it never closes, and the full loop over Mount Inari takes about two hours, which is why roughly nine in ten visitors quit at the first viewpoint and miss the best half.",
+      "description": "The head shrine of Inari worship, founded in 711 and moved to its present site in 816 on the slopes of 233-metre Mount Inari. Around 10,000 torii gates line the trails, each donated by a business or individual whose name is carved into the back, and the main shrine buildings date largely to the 15th century.",
+      "bestTime": "Before 7am or after 7pm; avoid weekends entirely",
+      "entryFee": "Free",
+      "tip": "Eat before you climb. There are only a couple of small teahouses on the mountain, they shut by late afternoon, and the shops at the base selling inari sushi and grilled quail are your last realistic chance at food for two hours."
+    },
+    {
+      "id": "jp-osaka-castle",
+      "name": "Osaka Castle",
+      "city": "Osaka",
+      "category": "castle",
+      "latitude": 34.6873,
+      "longitude": 135.5259,
+      "whyVisit": "Yes, the keep is a 1931 concrete reconstruction with an elevator, and it is still worth your afternoon: the moat, the absurdly huge stone walls and the eighth-floor view tell you more about Osaka than any museum will. Walk the northern park at sunset, when office workers sit on the ramparts with convenience-store beer and the whole thing is free. That hour is better than the ¥600 interior, and I would still pay the ¥600.",
+      "description": "Originally built in 1583 by Toyotomi Hideyoshi and destroyed in 1615 and again in 1868 during the Meiji Restoration; the current keep is a 1931 reconstruction with a modernised interior from 1997. The grounds cover about 106 hectares and the walls contain some of the largest stones ever cut for a Japanese castle, one of them over 100 tonnes.",
+      "bestTime": "Late afternoon on a weekday; late March to early April for the park's cherry blossom",
+      "entryFee": "¥600 (~$4) for the keep; park free",
+      "tip": "Enter through the Ōtemon gate rather than the main plaza: you approach the keep along the moat with no queue at all, and if you arrive before 9am you can photograph it reflected in still water before the first tour buses unload."
+    },
+    {
+      "id": "jp-todai-ji",
+      "name": "Tōdai-ji",
+      "city": "Nara",
+      "category": "temple",
+      "latitude": 34.6889,
+      "longitude": 135.8398,
+      "whyVisit": "You have seen the Great Buddha in photographs, but nothing prepares you for the building wrapped around him: the hall is one of the largest wooden structures on earth and it will genuinely stop your conversation mid-sentence. Skip the deer-biscuit circus for twenty minutes, pay the ¥800, and then spend the rest of the day on the free temples and trails up the hill instead of buying another ticket.",
+      "description": "Founded in 752 as the head temple of all provincial Buddhist temples, its Daibutsuden houses a 15-metre bronze Vairocana Buddha cast in the 8th century, flanked by two large bodhisattva figures. The present hall dates from a 1709 rebuild and is roughly two-thirds the length of the original, yet still ranks among the largest wooden buildings in the world.",
+      "bestTime": "The first hour after opening (7:30am April-October, 8am in winter)",
+      "entryFee": "¥800 (~$5.30)",
+      "tip": "The famous pillar with the hole in its base, which children squeeze through for luck, is at the back right of the hall; the queue for it is shortest in the first twenty minutes after opening and can run an hour by midday."
+    },
+    {
+      "id": "jp-itsukushima-shrine",
+      "name": "Itsukushima Shrine",
+      "city": "Miyajima",
+      "category": "shrine",
+      "latitude": 34.2959,
+      "longitude": 132.3197,
+      "whyVisit": "Check the tide table before you plan anything, because the great torii is only spectacular twice a day: at high tide it appears to float on the bay, and at low tide you can walk dry-shod to its base. If you can afford one night on the island, stay, because the last ferry carries the day-trippers home and you suddenly have the shrine, the deer and the mountain to yourself.",
+      "description": "Founded in the 6th century and rebuilt in its present pier-and-lagoon form in 1168 by the warlord Taira no Kiyomori, whose family patronised it as a gateway to the sacred island. The 16-metre otorii gate stands in the water in front of the complex, and the island, a ten-minute ferry ride from Miyajimaguchi, is a UNESCO World Heritage Site.",
+      "bestTime": "High tide for the floating gate; before 8am or after 5pm for quiet",
+      "entryFee": "¥300 (~$2) for the shrine; ferry about ¥200 each way",
+      "tip": "The Mount Misen ropeway runs about ¥2,000 (~$13) round trip, and the free 30 to 40-minute Daishō-in hiking trail from the town gives you the same view over the bay for nothing at all."
+    },
+    {
+      "id": "jp-kenroku-en",
+      "name": "Kenroku-en",
+      "city": "Kanazawa",
+      "category": "nature",
+      "latitude": 36.5620,
+      "longitude": 136.6625,
+      "whyVisit": "Kanazawa gets a fraction of Kyoto's crowds and this garden is the reason to put it on your route. It ranks as one of Japan's three great gardens, it costs ¥320, and because the shinkansen from Tokyo only reached the city in 2015, most backpackers still skip it entirely, which means you get a 300-year-old landscape with actual room to walk in it. Combine it with the castle park next door and you have a full, cheap, unhurried day.",
+      "description": "Laid out between the 1620s and 1840s by the Maeda lords of Kaga and opened to the public in 1874, the garden covers 11.4 hectares around a central pond and is designed as a strolling landscape. It is famous for the yukitsuri rope cones strung over the pines each winter and for the Kotoji-tōrō, a two-legged stone lantern that is among the most photographed objects in Japan.",
+      "bestTime": "Late March to early April for blossom, or January for the yukitsuri",
+      "entryFee": "¥320 (~$2.10)",
+      "tip": "Come in through the Katsurazaka gate from the castle park side instead of the main gate, where tour buses unload — you get the same garden in reverse, the crowd behind rather than in front of you, and a quiet first ten minutes."
+    }
+  ],
+  "tips": {
+    "currency": [
+      "Japan runs on cash far more than you would expect: temples, small ramen counters, rural buses and market stalls often take yen only, so keep roughly ¥10,000-20,000 (~$67-135) on you at all times.",
+      "7-Eleven and Japan Post (Yūcho) ATMs reliably accept foreign Visa, Mastercard and UnionPay cards; many bank ATMs and most post-office counters do not, so do not assume the first machine you find will work.",
+      "Withdrawals usually cost about ¥110-220 (~$0.75-1.50) per transaction on top of whatever your own bank charges, so take out larger amounts less often instead of ¥5,000 at a time.",
+      "Cards work in convenience stores, chain hotels and big stations, and a loaded Suica or ICOCA card covers most small purchases, but the coins pile up fast, so carry a coin purse for all the ¥100 and ¥500 pieces."
+    ],
+    "tipping": [
+      "Do not tip. Not in restaurants, not in taxis, not in hotels. Service is included in the price, and leaving cash on the table will often send a waiter running down the street after you to hand it back.",
+      "The one grey area is a high-end ryokan, where a ¥1,000-3,000 (~$6.70-20) gift in a formal envelope is an optional courtesy for exceptional service. It is never expected, and it is never handed over loose.",
+      "Many restaurants and most small bars add an automatic seating charge (otoshi or chāji, typically ¥300-1,000). That is a cover charge, not a scam, but ask before you sit down so the bill is not a surprise."
+    ],
+    "scams": [
+      "Kabukichō, Shinjuku: touts approach you on the street with all-you-can-drink deals or an invitation to a bar with 'cheap Japanese girls', then walk you somewhere the bill lands between ¥50,000 and ¥200,000. Never follow a tout, and if you are already inside, refuse to surrender your card or accompany anyone to an ATM.",
+      "Roppongi: bars with English signs advertising free entry that then charge ¥3,000-5,000 for a single drink or a huge table charge, with occasional card skimming. Ask to see the menu and confirm the cover charge in writing before ordering anything.",
+      "Fake monks near Sensō-ji in Asakusa and around Shibuya hand you 'free' prayer beads or a blessing and then demand a donation of ¥1,000-5,000. Genuine monastics do not solicit tourists on the street, so hand the beads straight back and keep walking.",
+      "Rickshaw (jinrikisha) pullers and 'free' guides around the big temple districts often finish with a hard sell for a paid tour or a detour to a shop that pays them commission. Fix the price and the duration before you get on, and walk away from anyone who will not name a number up front."
+    ],
+    "transport": [
+      "Get an IC card (Suica, PASMO or ICOCA) at the airport or a station machine and top it up as you go: it works on trains, subways and most city buses nationwide, and Suica can also be added directly to Apple Wallet before you even land.",
+      "The Japan Rail Pass now costs ¥50,000 (~$335) for seven days, which is more than a Tokyo-Kyoto return on the shinkansen, so do the arithmetic first. For most itineraries point-to-point tickets, an overnight highway bus or a regional pass is cheaper.",
+      "Shinkansen unreserved seats are the budget option (Tokyo to Kyoto about ¥13,320, ~$89), and overnight Willer highway buses between the big cities start around ¥3,500-6,000 (~$23-40), which is rough on the neck and unbeatable on price.",
+      "Trains stop running around midnight and taxis are expensive after that (Tokyo flag fall ¥500, ~$3.30), so plan your last ride or budget for a capsule hotel. If you have time, the Seishun 18 Kippu (about ¥12,050, ~$80 for five days of unlimited local trains) is the cheapest long-distance trick in the country."
+    ],
+    "etiquette": [
+      "Do not eat or drink while walking, and do not eat on commuter trains, which is genuinely frowned upon, especially in Kyoto. Long-distance and shinkansen services are fine.",
+      "Keep your phone on silent and do not take calls on trains. On escalators stand on the left in Tokyo and the right in Osaka, and queue exactly where the platform markings tell you rather than beside them.",
+      "Take your shoes off wherever you see a raised genkan step or tatami flooring, use the toilet slippers only inside the toilet, and never stand chopsticks upright in rice or pass food chopstick to chopstick, as both mirror funeral rites.",
+      "Tattoos still bar you from many onsen and sentō, so look for a 'tattoo-friendly' bath or book a private (kashikiri) one, and always wash thoroughly at the seated showers before getting into the water."
+    ],
+    "emergency": {
+      "police": "110",
+      "ambulance": "119",
+      "notes": "Dial 110 for police and 119 for fire or ambulance; both are free from any phone, including payphones, and 119 operators can usually connect an interpreter. The Japan Visitor Hotline on 050-3816-2787 runs 24 hours a day in English, Chinese and Korean for medical, accident and disaster help."
+    }
+  }
+}

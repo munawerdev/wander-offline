@@ -143,7 +143,10 @@ mixin ShowSnackBarError {
         dismissDirection: DismissDirection.down,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12.0.r),
-          side: BorderSide(color: Colors.red.withOpacity(0.3), width: 1.5),
+          side: BorderSide(
+            color: Colors.red.withValues(alpha: 0.3),
+            width: 1.5,
+          ),
         ),
         margin: EdgeInsets.symmetric(horizontal: 16.0.w, vertical: 20.0.h),
         duration: const Duration(seconds: 3),
@@ -226,7 +229,7 @@ class _ErrorSnackBarContentState extends State<_ErrorSnackBarContent>
               Container(
                 padding: EdgeInsets.all(8.w),
                 decoration: BoxDecoration(
-                  color: widget.color.withOpacity(0.2),
+                  color: widget.color.withValues(alpha: 0.2),
                   shape: BoxShape.circle,
                 ),
                 child: Icon(widget.icon, color: widget.color, size: 20.sp),
