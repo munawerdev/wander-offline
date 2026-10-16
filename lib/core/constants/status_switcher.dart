@@ -67,9 +67,9 @@ class StatusSwitcher<T> extends StatelessWidget {
 
   Widget _buildStatusWidget(BuildContext context) {
     switch (response.status) {
-      case Status.LOADING:
+      case Status.loading:
         return onLoading?.call(context) ?? _DefaultLoadingWidget();
-      case Status.ERROR:
+      case Status.error:
         return onError?.call(context, response.error) ??
             _DefaultErrorWidget(
               failure: response.error,
@@ -77,7 +77,7 @@ class StatusSwitcher<T> extends StatelessWidget {
               config: config,
               customTitle: customErrorTitle,
             );
-      case Status.COMPLETED:
+      case Status.completed:
         if (_isDataEmpty(response.data)) {
           return _DefaultNoDataWidget(
             config: config,
